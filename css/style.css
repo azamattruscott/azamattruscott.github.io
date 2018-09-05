@@ -1465,10 +1465,6 @@ div.boat-map iframe{
     display: grid;
     grid-template-columns: 9vw 81vw 9vw;
     grid-template-rows: 9vw 25vw 9vw;
-
-  }
-
-  div.sc_picture{
     background: url('../img/Sweden/IMG_8959.jpg') no-repeat;
     background-size: cover;
     grid-row-start: 1;
