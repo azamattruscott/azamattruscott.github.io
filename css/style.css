@@ -255,7 +255,7 @@ div.main-part{
   height: 100vh;
 }
 
-.showcase h1{
+div.showcase h1{
   color: white;
   font-size: 14vw;
   grid-column: 4/18;
