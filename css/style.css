@@ -1,0 +1,2832 @@
+ html{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+position: fixed;
+height: 50px;
+width: 100%;
+background-color: rgba (0,0,0,0.5);
+z-index: 99;
+list-style: none;
+grid-area: header;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  display: block;
+  list-style: none;
+}
+
+div.button-wrapper{
+ display: grid;
+ grid-template-rows: 30px auto;
+ position: absolute;
+ width: 100%;
+ z-index: 999;
+}
+
+button.accordion{
+  cursor: pointer;
+  border:none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 1s;
+  grid-row-start: 1;
+  position: fixed;
+}
+
+button.accordion:hover{
+  background-color: rgba(0,0,0,0.7);
+  font-weight: bolder;
+  transition: 1s;
+}
+
+button.accordion.active{
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,255,0,0.5);
+}
+
+div.panel{
+  display: none;
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.3s;
+  grid-row-start: 2;
+  position: absolute;
+  bottom: -375px;
+  width: 100vw;
+  line-height: 80px;
+  color: white;
+  font-size: 20px;
+  }
+
+  div.panel a{
+    font-weight: bolder;
+    color: white;
+    width: 100%;
+  }
+
+  div.panel a:hover{
+    transition: 0.3s;
+    color: rgba(0,255,0,0.5);
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+div.mainBox{
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-template-columns: 60% 40%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/*div.panel li:hover{
+  background-color: rgba(0,0,0,0.5);
+}*/
+
+
+.main-part{
+  display: grid;
+  grid-template-rows:  33vw 10vw 55vw 1vw 110px 30px;
+  /* grid-auto-rows: 200px; */
+  grid-gap: 0%;
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.showcase{
+  background-color: green;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+div.container{
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: teal;
+}
+
+.info-box{
+  z-index: 999;
+  position: fixed;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 360px 5%;
+  grid-gap: 10px;
+}
+
+div.wordArea{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  padding: 10px;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  background: aliceblue;
+  overflow-y: scroll;
+}
+
+div.wordArea h1{
+  font-size: 25px;
+  font-family: Times;
+}
+
+div.wordArea p{
+  font-size: 10px;
+}
+
+div.attr-part{
+  display: grid;
+grid-template-rows: 33vw 10vw 31vw 15px 95px 30px;
+/* grid-auto-rows: 200px; */
+grid-gap: 0%;
+background-color: blue;
+width: 100vw;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+div.atr-container{
+  display: grid;
+  grid-template-columns: 10% 30px auto 30px 10%;
+  grid-template-rows: 20px 80px 150px 20px;
+  grid-gap: 32px;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 425px) {
+
+/*INDEX PAGE - <730PX*/
+div.button-wrapper{
+ display: grid;
+ grid-template-rows: 30px auto;
+ position: fixed;
+ width: 100%;
+ z-index: 999;
+}
+
+button.accordion{
+  cursor: pointer;
+  border:none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 1s;
+  grid-row-start: 1;
+  position: fixed;
+}
+
+button.accordion:hover{
+  background-color: rgba(0,0,0,0.7);
+  font-weight: bolder;
+  transition: 1s;
+}
+
+button.accordion.active{
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,255,0,0.5);
+}
+
+div.panel{
+  display: none;
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.3s;
+  grid-row: 2/20;
+  position: absolute;
+  bottom: -375px;
+  width: 100vw;
+  line-height: 80px;
+  color: white;
+  font-size: 20px;
+  }
+
+  div.panel a{
+    font-weight: bolder;
+    color: white;
+    width: 100%;
+  }
+
+  div.panel a:hover{
+    transition: 0.3s;
+    color: rgba(0,255,0,0.5);
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+div.main-part{
+  display: grid;
+  grid-template-rows: repeat(60, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+.showcase h1{
+  color: white;
+  font-size: 14vw;
+  grid-column: 4/18;
+  grid-row: 5/12;
+  text-align: center;
+  margin-top: 4vw;
+}
+
+div.wordArea{
+  grid-row: 13/30;
+  grid-column: 2/20;
+  background-color: rgba(0,0,0,0.5);
+  display: grid;
+  grid-template-rows: repeat(14, 5vw);
+  grid-template-columns: repeat(13, 5vw);
+
+}
+
+div.wordArea h1{
+  color: white;
+  font-size: 4.5vw;
+  margin-top: -2.5vw;
+  grid-row: 1/3;
+  grid-column: 4/13;
+}
+
+div.wordArea p{
+  color: white;
+  font-size: 3vw;
+  grid-row: 5/15;
+  grid-column: 2/13;
+
+}
+
+div.container{
+  grid-row: 33/57;
+  grid-column: 1/21;
+  background-color: white;
+  margin: 0px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-rows: repeat(100, 5vw);
+}
+
+div.p1{
+  background: url(../img/NEW_SWEDEN/IMG_8983.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 1/9;
+  grid-column: 2/7;
+}
+div.p2{
+  background: url(../img/NEW_SWEDEN/IMG_9005.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 10/23;
+  grid-column: 1/6;
+}
+div.p3{
+  background: url(../img/NEW_SWEDEN/IMG_8775.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 24/33;
+  grid-column: 2/7;
+}
+div.p4{
+  background: url(../img/NEW_SWEDEN/IMG_8962.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 34/44;
+  grid-column: 3/8;
+}
+div.p5{
+  background: url(../img/NEW_SWEDEN/IMG_8995.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 45/52;
+  grid-column: 1/5;
+}
+div.p6{
+  background: url(../img/NEW_SWEDEN/IMG_8956.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 53/60;
+  grid-column: 2/8;
+}
+div.p7{
+  background: url(../img/NEW_SWEDEN/IMG_8637.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 61/72;
+  grid-column: 1/7;
+}
+div.p8{
+  background: url(../img/NEW_SWEDEN/IMG_9015.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 73/88;
+  grid-column: 2/8;
+}
+div.p9{
+  background: url(../img/NEW_SWEDEN/IMG_9006.jpg) no-repeat;
+  background-size: cover;
+  grid-row: 89/99;
+  grid-column: 1/8;
+}
+
+/*END OF INDEX PAGE - <730PX*/
+
+/*ATTRACTIONS PAGE <730PX*/
+
+  div.attr-part{
+    display: grid;
+    grid-template-rows: repeat(60, 5vw);
+    grid-template-columns: repeat(20, 5vw);
+    background-color: white;
+    height: 100vh;
+  }
+
+  div.showcase{
+    background: url('../img/plswork.jpg') no-repeat;
+    background-size: cover;
+    grid-row: 1/15;
+    grid-column: 1/21;
+    display: grid;
+    grid-template-rows: repeat(14, 5vw);
+    grid-template-columns: repeat(20, 5vw);
+    margin-top: 0px;
+  }
+
+div.atr-info{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  grid-row: 12/28;
+  grid-column:2/11;
+  z-index: 99;
+  overflow-y: scroll;
+}
+
+div.atr-info h1{
+  font-size: 5vw;
+  font-family: inherit;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 2.5vw;
+  color: white;
+}
+
+div.atr-info p{
+  font-size: 2vw;
+  margin-top: 5vw;
+  color: white;
+  padding: 25px;
+}
+
+div.atr-info2{
+  grid-row: 16/29;
+  grid-column: 3/20;
+  background-color: rgba(240,0,0,0.5);
+
+  display: grid;
+  grid-template-rows: repeat(13, 5vw);
+  grid-template-columns: repeat(17, 5vw);
+
+  overflow-y: scroll;
+}
+
+div.atr-info2 p{
+  font-size: 2vw;
+  margin-top: 5vw;
+  color: white;
+  padding: 25px;
+
+  grid-row:3/11;
+  grid-column: 10/16;
+  padding: 0px;
+  margin: 0px;
+}
+
+  div.boxes{
+    background-color: rgba(0,0,0,0);
+    grid-row: 31/48;
+    grid-column: 1/21;
+    overflow-x: scroll;
+    display: -webkit-box;
+  }
+
+  div.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-left: 10px;
+    margin: 10px;
+    height: 75vw;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  div.box1 li, .box2 li, .box3 li, .box4 li, .box5 li, .box6 li, .box7 li, .box8 li, .box9 li, .box10 li{
+    font-size: 1.3vw;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  div.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a, .box8 a, .box9 a, .box10 a{
+    font-size: 9vw;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    padding: 20px;
+  }
+
+  div.box1 a:hover, .box2 a:hover, .box3 a:hover, .box4 a:hover, .box5 a:hover, .box6 a:hover, .box7 a:hover, .box8 a:hover, .box9 a:hover, .box10 a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 30%;
+    padding-bottom: 30%;
+    transition: 0.3s;
+  }
+  div.atr-infobox1{
+    background-color: rgba(0,0,0,0);
+    grid-row: 49/55;
+    grid-column: 2/16;
+    z-index: 99;
+  }
+  div.atr-infobox1 h3{
+    color: black;
+    font-size: 10vw;
+    font-weight: bolder;
+  }
+
+  div.atr-infobox2{
+    background-color: white;
+    grid-row: 54/60;
+    grid-column: 7/20;
+    text-align: right;
+  }
+
+  div.atr-infobox2 h4{
+    color: black;
+    font-size: 2vw;
+  }
+/*END OF ATTRACTIONS PAGE  <730PX*/
+
+/*PTS PAGE <730PX*/
+
+
+div.pts-part{
+  display: grid;
+  grid-template-rows: repeat(60, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+div.HeaderArea{
+  display: grid;
+  grid-template-rows: repeat(25,2vw);
+  grid-template-columns: repeat(40,2vw);
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 13/25;
+  grid-column: 2/17;
+}
+div.HeaderArea h1{
+  font-size: 5vw;
+  color: white;
+  font-weight: bolder;
+  grid-row: 2/5;
+  grid-column: 3/38;
+}
+div.HeaderArea p{
+  font-size: 2vw;
+  color: white;
+  grid-row: 7/19;
+  grid-column: 3/35;
+}
+
+.pts-info{
+  background-color: rgba(255,0,0,0.5);
+  grid-row: 23/32;
+  grid-column: 5/20;
+  overflow-y: scroll;
+}
+.pts-info p{
+  color: white;
+  font-size: 2vw;
+  padding: 4vw;
+}
+
+.pts-info2{
+  grid-row: 54/61;
+  grid-column: 12/20;
+}
+.pts-info2 h3{
+  font-size: 10vw;
+  color: black;
+  font-weight: bolder;
+  text-align: right;
+}
+.pts-info3{
+  grid-row: 51/65;
+  grid-column:2/11;
+}
+.pts-info3 h4{
+  font-size: 2vw;
+  color: black;
+}
+
+div.pts-boxes{
+  grid-row: 33/49;
+  grid-column:1/21;
+  background-color: rgba(0,0,0,0);
+  overflow-x: scroll;
+  display: -webkit-box;
+}
+.pts-box1, .pts-box2, .pts-box3, .pts-box4{
+   margin: 2vw;
+   width: 75vw;
+   height: 75vw;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+}
+
+.pts-box1{
+  background: url('../img/hotels.jpg') no-repeat;
+  background-size: cover;
+}
+.pts-box2{
+  background: url('../img/bb.jpg') no-repeat;
+  background-size: cover;
+}
+.pts-box3{
+  background: url('../img/hostels.jpg') no-repeat;
+  background-size: cover;
+}
+.pts-box4{
+  background: url('../img/camping.jpg') no-repeat;
+  background-size: cover;
+}
+
+.pts-box1 li, .pts-box2 li, .pts-box3 li, .pts-box4 li{
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.pts-box1 a, .pts-box2 a, .pts-box3 a, .pts-box4 a{
+  font-size: 11vw;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+.pts-box1 a:hover, .pts-box2 a:hover, .pts-box3 a:hover,.pts-box4 a:hover{
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 30%;
+  padding-bottom: 30%;
+  transition: 0.3s;
+  color: white;
+  text-decoration: underline;
+}
+.pts-box1 a:not(:hover), .pts-box2 a:not(:hover), .pts-box3 a:not(:hover),.pts-box4 a:not(:hover){
+  transition: 0.2s;
+}
+
+div.ti-part{
+  display: grid;
+  grid-template-rows: repeat(100, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+div.ti-info{
+  display: grid;
+  grid-template-rows: repeat(45,2vw);
+  grid-template-columns: repeat(30,2vw);
+  grid-row: 12/26;
+  grid-column: 8/20;
+  background-color: rgba(0,0,0,0.5);
+  overflow-y: scroll;
+}
+div.ti-info h1{
+  color: white;
+  font-size: 5vw;
+  grid-row: 2/5;
+  grid-column: 2/30;
+  text-align: center;
+}
+div.ti-info p{
+  color: white;
+  font-size: 2vw;
+  grid-row: 9/31;
+  grid-column: 7/26;
+}
+
+div.ti-info2{
+  background-color: rgba(255,0,0,0.5);
+  grid-row: 16/34;
+  grid-column: 2/10;
+  display: grid;
+  grid-template-rows: repeat(48, 2vw);
+  grid-template-columns: repeat(16, 2vw);
+  padding: 4vw;
+  overflow-y: scroll;
+}
+div.ti-info2 p{
+  color: white;
+  font-size: 2vw;
+  grid-row: 1/40;
+  grid-column: 1/14;
+}
+
+div.ti-infobox1{
+  grid-row: 28/34;
+  grid-column: 11/20;
+}
+div.ti-infobox1 h3{
+  color: black;
+  font-size: 9vw;
+  font-weight: bolder;
+  text-align: right;
+}
+div.ti-infobox2{
+  grid-row: 36/41;
+  grid-column: 2/20;
+}
+div.ti-infobox2 h4{
+  color: black;
+  font-size: 2vw;
+  text-align: right;
+}
+
+div.ti-boxes{
+  grid-column: 1/21;
+  grid-row: 42/58;
+  background-color: rgba(0,0,0,0);
+  display: -webkit-box;
+  overflow-x: scroll;
+}
+div.ti-box1{
+  background-color: rgba(255,0,0,0.3);
+  margin: 3vw;
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+div.ti-box2{
+  background-color: rgba(255,0,0,0.6);
+  margin: 3vw;
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+div.ti-box3{
+  background-color: rgba(255,0,0,0.9);
+  margin: 3vw;
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+div.ti-box1 li, div.ti-box2 li, div.ti-box3 li{
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+div.ti-box1 a, div.ti-box2 a, div.ti-box3 a{
+  font-size: 9vw;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+div.ti-box1 a:hover, div.ti-box2 a:hover, div.ti-box3 a:hover{
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 30%;
+  padding-bottom: 30%;
+  transition: 0.3s;
+}
+
+div.ti-infobox3{
+  grid-row: 59/61;
+  grid-column: 5/18;
+}
+div.ti-infobox3 h3{
+  font-size: 9vw;
+  font-weight: bolder;
+  color: black;
+}
+
+div.ti-imagebox{
+  display: grid;
+  grid-template-rows: repeat(15, 3vw);
+  grid-template-columns: repeat(33, 3vw);
+  grid-row: 63/74;
+  grid-column: 1/21;
+}
+div.ti-imagebox .imagebox-photo{
+  background: url('../img/NotherDopePic.jpg') no-repeat;
+  background-size: cover;
+  grid-row: 1/15;
+  grid-column: 1/35;
+}
+
+div.ti-imagebox h4{
+  color: white;
+  font-size: 2vw;
+  text-align: left;
+  grid-row: 2/15;
+  grid-column: 2/19;
+}
+div.ti-imagebox h4:hover{
+  font-size: 2vw;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.3);
+  transition: 0.3s;
+  padding: 0.5%;
+}
+div.ti-imagebox h4:not(:hover){
+  font-size: 2vw;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+div.pts-area{
+  display: grid;
+  grid-template-rows: repeat(100, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+div.pts-area .ptssc-branch{
+  grid-row: 6/19;
+  grid-column: 2/20;
+}
+
+div.pts-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 7/14;
+  grid-column: 3/19;
+  display: grid;
+  grid-template-columns: repeat(16,5vw);
+  grid-template-rows: repeat(7,5vw);
+}
+
+div.pts-title h1{
+  font-size: 12vw;
+  color: white;
+  text-align: center;
+  grid-row: 3/7;
+  grid-column: 2/16;
+}
+div.pts-title h3{
+  font-size: 12vw;
+  color: white;
+  text-align: center;
+  grid-row: 2/7;
+  grid-column: 2/16;
+}
+
+div.ptsbranch-info{
+  grid-row: 17/22;
+  grid-column: 2/20;
+}
+div.ptsbranch-info h1{
+  font-size: 9vw;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+div.ptsbranch-info2{
+  grid-row: 22/27;
+  grid-column: 2/20;
+}
+
+div.ptsbranch-info2 p{
+  font-size: 2vw;
+}
+
+div.ptsbranch-carousel{
+  display: grid;
+  grid-template-rows: repeat(39, 3vw);
+  grid-template-columns: repeat(30, 3vw);
+  scroll-behavior: smooth;
+  grid-row: 28/48;
+  grid-column: 2/20;
+}
+
+#PTScarouselExampleIndicators{
+  width: 87vw;
+  height: 117vw;
+}
+div.carousel-inner{
+  height: 100vw;
+  width: 90vw;
+}
+
+div.ptr-info2{
+  z-index: 30;
+  position: absolute;
+  display: grid;
+  grid-template-rows: repeat(60,2vw);
+  grid-template-columns: repeat(50,2vw);
+}
+div.ptr-info2 h1{
+  color: black;
+  font-size: 5vw;
+  font-weight: bolder;
+  grid-row: 3/9;
+  grid-column:3/45;
+  padding: 5%;
+}
+
+div.ptr-info2 h1:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+div.ptr-info2 h1:not(:hover){
+  color: black;
+  font-size: 5vw;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+div.ptr-info2 p{
+  color: black;
+  background-color: rgba(0,0,0,0);
+  font-size: 2vw;
+  grid-row: 9/19;
+  grid-column: 1/46;
+  padding: 5%;
+}
+div.ptr-info2 iframe{
+  grid-row: 23;
+  grid-column: 2/45;
+  width: 85vw;
+  height: 60vw;
+}
+
+div.next-pts {
+  grid-row: 52/54;
+  grid-column: 17/21;
+}
+div.next-pts a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-right: 10%;
+  padding-left: 3%;
+  transition: 0.3s;
+}
+
+div.next-pts a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+div.prev-pts {
+  grid-row: 52/54;
+  grid-column: 1/4;
+}
+div.prev-pts a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+
+div.prev-pts a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+
+div.attr-area{
+  display: grid;
+  grid-template-rows: repeat(50, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+div.attr-area .attrsc-branch{
+  grid-row: 6/19;
+  grid-column: 2/20;
+}
+
+div.attr-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 7/14;
+  grid-column: 3/19;
+  display: grid;
+  grid-template-columns: repeat(16,5vw);
+  grid-template-rows: repeat(7,5vw);
+}
+
+div.attr-title h1{
+  font-size: 12vw;
+  color: white;
+  text-align: center;
+  grid-row: 3/7;
+  grid-column: 2/16;
+}
+
+div.attr-header{
+  grid-row: 17/22;
+  grid-column: 2/20;
+}
+div.attr-header h2{
+  font-size: 9vw;
+  text-align: center;
+  font-weight: bolder;
+}
+
+div.attr-info{
+  grid-row: 35/38;
+  grid-column: 2/20;
+}
+div.attr-info p{
+  font-size: 2vw;
+  text-align: left;
+}
+
+div.attr1-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr2-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr3-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr4-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr5-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr6-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr7-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr8-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr9-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+div.attr10-image{
+  grid-row: 22/34;
+  grid-column: 2/20;
+  background: url(../img/hostels.jpg) no-repeat;
+  background-size: contain;
+  scroll-behavior: smooth;
+}
+
+div.attr-carousel{
+  display: grid;
+  grid-template-rows: repeat(20, 3vw);
+  grid-template-columns: repeat(33, 3vw);
+  scroll-behavior: smooth;
+  grid-row: 39/55;
+  grid-column: 1/21;
+}
+
+#carouselExampleIndicators{
+  width: 100vw;
+  height: 65vw;
+}
+div.carousel-inner{
+  width: 89vw;
+  height: 111vw;
+}
+a.carousel-control-prev{
+  top: 108vw;
+}
+a.carousel-control-next{
+  top: 108vw;
+}
+
+div.attr-info2{
+  z-index: 30;
+  position: absolute;
+  display: grid;
+  grid-template-rows: repeat(60,2vw);
+  grid-template-columns: repeat(50,2vw);
+}
+
+div.attr-info2 p{
+  color: white;
+  font-size: 2vw;
+  grid-row: 2/25;
+  grid-column: 2/22;
+  text-align: left;
+}
+div.attr-info2 p:hover{
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  font-size: 2vw;
+  padding: 5%;
+  text-align: left;
+  transition: 0.3s;
+}
+div.attr-info2 p:not(:hover){
+  color: white;
+  font-size: 2vw;
+  text-align: left;
+  transition: 0.3s;
+}
+
+div.carousel-item{
+  height: 60vw;
+}
+
+div.next-attr {
+  grid-row: 51/53;
+  grid-column: 15/21;
+}
+div.next-attr a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-right: 10%;
+  padding-left: 3%;
+  transition: 0.3s;
+}
+
+div.next-attr a:not(:hover) {
+    font-size: 3vw;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+div.prev-attr {
+  grid-row: 51/53;
+  grid-column: 1/8;
+}
+div.prev-attr a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+div.prev-attr a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+div.ti-bus-part{
+  display: grid;
+  grid-template-rows: repeat(100, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+div.ti-bus-part .showcase-branch{
+  grid-row: 6/19;
+  grid-column: 2/20;
+}
+
+div.ti-train-part{
+  display: grid;
+  grid-template-rows: repeat(100, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+div.ti-train-part .showcase-branch{
+  grid-row: 6/19;
+  grid-column: 2/20;
+}
+
+div.ti-boat-part{
+  display: grid;
+  grid-template-rows: repeat(100, 5vw);
+  grid-template-columns: repeat(20, 5vw);
+  background-color: white;
+  height: 100vh;
+}
+
+div.ti-boat-part .showcase-branch{
+  grid-row: 6/19;
+  grid-column: 2/20;
+}
+
+div.sc-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 7/14;
+  grid-column: 3/19;
+  display: grid;
+  grid-template-columns: repeat(16,5vw);
+  grid-template-rows: repeat(7,5vw);
+}
+div.sc-title h3{
+  font-size: 12vw;
+  color: white;
+  text-align: center;
+  grid-row: 3/7;
+  grid-column: 2/16;
+}
+
+div.infobox-branch{
+  grid-row: 16/19;
+  grid-column: 2/20;
+}
+div.infobox-branch h3{
+  font-size: 9vw;
+  text-align: center;
+  font-weight: bolder;
+}
+
+div.infobox2-branch{
+  grid-row: 19/38;
+  grid-column: 2/10;
+}
+div.infobox2-branch p{
+  font-size: 2vw;
+  text-align: left;
+}
+
+div.bus-image{
+  background: url('../img/statue_remove.jpg');
+  grid-row: 19/35;
+  grid-column: 11/20;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.train-image{
+  background: url('../img/statue_remove.jpg');
+  grid-row: 19/35;
+  grid-column: 11/20;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.boat-image{
+  background: url('../img/statue_remove.jpg');
+  grid-row: 19/35;
+  grid-column: 11/20;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.infobox3-branch{
+  grid-row: 38/42;
+  grid-column: 2/20;
+}
+div.infobox3-branch p{
+  font-size: 2vw;
+  text-align: left;
+}
+
+div.next-ti{
+  grid-row: 56/58;
+  grid-column: 18/21;
+}
+div.next-ti a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+div.next-ti a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+div.prev-ti{
+  grid-row: 56/58;
+  grid-column: 1/4;
+}
+div.prev-ti a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+div.prev-ti a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+div.bus-map{
+  grid-row: 42/56;
+  grid-column: 2/20;
+}
+div.bus-map iframe{
+  width: 90vw;
+  height: 65vw;
+}
+
+div.train-map{
+  grid-row: 42/56;
+  grid-column: 2/20;
+}
+div.train-map iframe{
+  width: 90vw;
+  height: 65vw;
+}
+
+div.boat-map{
+  grid-row: 42/56;
+  grid-column: 2/20;
+}
+div.boat-map iframe{
+  width: 90vw;
+  height: 65vw;
+}
+
+
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 2560px) {
+  /*INDEX >1200PX*/
+  ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    display: block;
+    list-style: none;
+  }
+
+  div.mainBox{
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-template-columns: 60% 40%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  div.button-wrapper{
+   display: grid;
+   grid-template-rows: 30px auto;
+   position: fixed;
+   width: 100%;
+   z-index: 999;
+  }
+
+  button.accordion{
+    cursor: pointer;
+    border:none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 1s;
+    grid-row-start: 1;
+    position: fixed;
+  }
+
+  button.accordion:hover{
+    background-color: rgba(255,0,0,0.5);
+    font-weight: bolder;
+    transition: 0.3s;
+  }
+
+  button.accordion.active{
+    background-color: rgba(0,255,0,0.5);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+  }
+
+  div.panel{
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    transition: 0.3s;
+    grid-row-start: 2;
+    position: absolute;
+    bottom: -375px;
+    width: 100vw;
+    line-height: 80px;
+    color: white;
+    font-size: 20px;
+    }
+
+    div.panel a{
+      font-weight: bolder;
+      color: white;
+      width: 100%;
+    }
+
+    div.panel a:hover{
+      transition: 0.3s;
+      color: rgba(0,255,0,0.5);
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+
+
+
+  .main-part{
+    display: grid;
+    grid-template-rows:  33vw 10vw 31vw 15px 95px 30px;
+    /* grid-auto-rows: 200px; */
+    grid-template-columns: 0.05fr 0.8fr 0.2fr 1fr 0.2fr;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+  .showcase{
+    display: grid;
+    grid-template-columns: 9vw 81vw 9vw;
+    grid-template-rows: 9vw 25vw 9vw;
+    background: url('../img/Sweden/IMG_8959.jpg') no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1/35;
+    background-position-y: 50%;
+  }
+
+  .showcase h1{
+    color: white;
+    font-size: 8vw;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    margin-top: 7vw;
+    margin-top: 3vw;
+  }
+
+
+  div.container{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(35, 15%);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column: 4/5;
+    grid-gap: 1px;
+    background-color: transparent;
+    overflow-y: scroll;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  div.p1{
+    background: url("../img/NEW_SWEDEN/IMG_8983.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 11;
+  }
+  div.p2{
+    background: url("../img/NEW_SWEDEN/IMG_9005.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  div.p3{
+    background: url("../img/NEW_SWEDEN/IMG_8775.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    grid-column-start: 6;
+    grid-column-end: 11;
+  }
+  div.p4{
+    background: url("../img/NEW_SWEDEN/IMG_8962.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 13;
+    grid-row-end: 17;
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  div.p5{
+    background: url("../img/NEW_SWEDEN/IMG_8995.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 13;
+    grid-row-end: 15;
+    grid-column-start: 8;
+    grid-column-end: 11;
+  }
+  div.p6{
+    background: url("../img/NEW_SWEDEN/IMG_8956.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 18;
+    grid-row-end: 23;
+    grid-column-start: 2;
+    grid-column-end: 11;
+  }
+  div.p7{
+    background: url("../img/NEW_SWEDEN/IMG_8637.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 24;
+    grid-row-end: 28;
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  div.p8{
+    background: url("../img/NEW_SWEDEN/IMG_9015.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 26;
+    grid-row-end: 29;
+    grid-column-start: 8;
+    grid-column-end: 11;
+  }
+  div.p9{
+    background: url("../img/NEW_SWEDEN/IMG_9006.jpg") no-repeat;
+    background-size: cover;
+    grid-row-start: 31;
+    grid-row-end: 35;
+    grid-column-start: 2;
+    grid-column-end: 10;
+  }
+
+
+div.wordArea{
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: repeat(20,2vw);
+  grid-template-columns: repeat(14,2vw);
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  overflow-y: hidden;
+
+}
+
+div.wordArea h1{
+  font-size: 3vw;
+  font-weight: bolder;
+  text-align: center;
+  grid-row: 2/5;
+  grid-column: 1/15;
+  color: white;
+  font-family: inherit;
+}
+
+div.wordArea p{
+  font-size: 1vw;
+  color: white;
+  grid-row: 12/15;
+  grid-column: 4/12;
+
+}
+
+/*END OF INDEX >1200PX*/
+
+/*ATTRACTIONS PAGE >1200PX*/
+div.attr-part{
+display: grid;
+grid-template-rows: repeat(50, 3vw);
+grid-template-columns: repeat(75, 3vw);
+grid-gap: 0%;
+background-color: white;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+div.attr-part .showcase{
+  display: grid;
+  grid-template-columns: 9vw 81vw 9vw;
+  grid-template-rows: 9vw 25vw 9vw;
+  background: url('../img/Sweden/IMG_8900.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 15;
+  grid-column: 1/35;
+  background-position-y: 30%;
+}
+
+div.atr-info{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 12/33;
+  grid-column: 22/33;
+  display: grid;
+  grid-template-rows: repeat(31, 2vw);
+  grid-template-columns: repeat(16, 2vw);
+}
+
+div.atr-info h1{
+  font-size: 3vw;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  padding: 1vw;
+  grid-row: 1/5;
+  grid-column: 3/15;
+
+}
+
+div.atr-info p{
+  font-size: 1vw;
+  color: white;
+  grid-row: 8/20;
+  grid-column: 4/14;
+}
+
+div.atr-info2{
+  background-color: rgba(255,0,0,0.5);
+  grid-row: 29/38;
+  grid-column: 5/26;
+  display: grid;
+  grid-template-rows: repeat(11,3vw);
+  grid-template-columns: repeat(21, 3vw);
+}
+
+div.atr-info2 p{
+  color: white;
+  font-size: 1vw;
+  grid-row: 3/8;
+  grid-column: 3/17;
+}
+
+div.atr-infobox1{
+  background-color: rgba(0,0,0,0);
+  grid-row: 40/45;
+  grid-column: 15/25;
+}
+
+div.atr-infobox1 h3{
+  font-size: 8vw;
+  font-weight: bolder;
+  color: black;
+  text-align: right;
+}
+
+div.atr-infobox2{
+  background-color: rgba(0,0,0,0);
+  grid-row: 42/46;
+  grid-column: 9/15;
+}
+
+div.atr-infobox2 h4{
+  font-size: 1vw;
+  color: black;
+  text-align: left;
+}
+
+div.boxes{
+  background-color: white;
+  grid-row: 16/27;
+  grid-column: 2/21;
+  overflow-x: scroll;
+  display: -webkit-box;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+  background-color: rgba(255, 0, 0, 0.5);
+  margin-left: 10px;
+  margin: 10px;
+  height: 29.3vw;
+  width: 32vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.box1 li, .box2 li, .box3 li, .box4 li, .box5 li, .box6 li, .box7 li, .box8 li, .box9 li, .box10 li{
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a, .box8 a, .box9 a, .box10 a{
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+.box1 a:hover, .box2 a:hover, .box3 a:hover, .box4 a:hover, .box5 a:hover, .box6 a:hover, .box7 a:hover, .box8 a:hover, .box9 a:hover, .box10 a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 30%;
+  padding-bottom: 30%;
+  transition: 0.3s;
+}
+/*END OF ATTRACTIONS PAGE >1200PX*/
+
+/*PLACES TO STAY PAGE >1200PX*/
+
+ div.pts-part{
+   display: grid;
+   grid-template-rows: repeat(50, 3vw);
+   grid-template-columns: repeat(75, 3vw);
+   grid-gap: 0%;
+   background-color: white;
+   height: 100vh;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+div.pts-part .showcase{
+  display: grid;
+  grid-template-columns: 9vw 81vw 9vw;
+  grid-template-rows: 9vw 25vw 9vw;
+  background: url('../img/Sweden/IMG_8782.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 15;
+  grid-column: 1/35;
+  background-position-y: 20%;
+}
+
+div.HeaderArea{
+  grid-row: 12/26;
+  grid-column: 5/16;
+  background-color: rgba(0,0,0,0.5);
+
+  display: grid;
+  grid-template-rows: repeat(13, 3vw);
+  grid-template-columns: repeat(20, 2vw);
+}
+
+div.HeaderArea h1{
+  font-size: 3vw;
+  font-family: inherit;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 1vw;
+  color: white;
+  grid-row: 1/3;
+  grid-column: 3/14;
+}
+
+div.HeaderArea p{
+  font-size: 1vw;
+  color: white;
+  grid-row: 5/13;
+  grid-column: 3/15;
+}
+
+div.pts-info{
+  grid-row: 39/48;
+  grid-column: 5/30;
+  background-color: rgba(255,0,0,0.5);
+  color: white;
+  padding: 20px;
+}
+
+div.pts-info p{
+  font-size: 1vw;
+  padding: 3.5vw;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+div.pts-boxes{
+  grid-row: 16/29;
+  grid-column: 18/20;
+  width: 40vw;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.pts-box1, .pts-box2, .pts-box3, .pts-box4{
+   margin: 10%;
+   width: 32vw;
+   height: 32vw;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+}
+
+.pts-box1{
+  background: url('../img/hotels.jpg') no-repeat;
+  background-size: cover;
+}
+.pts-box2{
+  background: url('../img/bb.jpg') no-repeat;
+  background-size: cover;
+}
+.pts-box3{
+  background: url('../img/hostels.jpg') no-repeat;
+  background-size: cover;
+}
+.pts-box4{
+  background: url('../img/camping.jpg') no-repeat;
+  background-size: cover;
+}
+
+.pts-box1 li, .pts-box2 li, .pts-box3 li, .pts-box4 li{
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.pts-box1 a, .pts-box2 a, .pts-box3 a, .pts-box4 a{
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+.pts-box1 a:hover, .pts-box2 a:hover, .pts-box3 a:hover,.pts-box4 a:hover{
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 30%;
+  padding-bottom: 30%;
+  transition: 0.3s;
+  color: white;
+  text-decoration: underline;
+}
+.pts-box1 a:not(:hover), .pts-box2 a:not(:hover), .pts-box3 a:not(:hover),.pts-box4 a:not(:hover){
+  transition: 0.2s;
+}
+
+div.pts-info2{
+  background-color: rgba(0,0,0,0);
+  grid-row: 28/38;
+  grid-column: 6/17;
+}
+
+div.pts-info2 h3{
+  font-size: 8vw;
+  color: black;
+  font-weight: bolder;
+}
+
+div.pts-info3{
+  background-color: rgba(0,0,0,0);
+  grid-row: 31/36;
+  grid-column: 18/32;
+}
+
+div.pts-info3 h4{
+  font-size: 1vw;
+  color: black;
+}
+
+/*TOURIST INFORMATION PAGE >1200PX*/
+div.ti-part{
+display: grid;
+grid-template-rows: repeat(65, 3vw);
+grid-template-columns: repeat(75, 3vw);
+grid-gap: 0%;
+background-color: white;
+height: 100vh;
+overflow-x: hidden;
+}
+
+div.ti-part .showcase{
+  display: grid;
+  grid-template-columns: 9vw 81vw 9vw;
+  grid-template-rows: 9vw 25vw 9vw;
+  background: url('../img/Sweden/IMG_8779.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 15;
+  grid-column: 1/35;
+  background-position-y: 50%;
+}
+
+div.ti-info{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 12/27;
+  grid-column: 17/31;
+  padding: 10px;
+
+  display: grid;
+  grid-template-rows: repeat(22, 2vw);
+  grid-template-columns: repeat(22, 2vw);
+}
+
+div.ti-info h1{
+  font-size: 3vw;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  grid-row: 1/5;
+  grid-column: 3/20;
+
+}
+
+div.ti-info p{
+  font-size: 1vw;
+  margin-top: 4vw;
+  color: white;
+  grid-row: 6/20;
+  grid-column: 5/18;
+}
+
+div.ti-info2{
+  background-color: rgba(255,0,0,0.5);
+  grid-row: 19/32;
+  grid-column: 4/19;
+  display: grid;
+  grid-template-rows: repeat(11,3vw);
+  grid-template-columns: repeat(21, 3vw);
+}
+
+div.ti-info2 p{
+  color: white;
+  font-size: 1vw;
+  grid-row: 3/13;
+  grid-column: 4/12;
+}
+
+div.ti-infobox1{
+  background-color: rgba(0,0,0,0);
+  grid-row: 28/37;
+  grid-column: 18/31;
+}
+
+div.ti-infobox1 h3{
+  font-size: 8vw;
+  font-weight: bolder;
+  color: black;
+  text-align: right;
+}
+
+div.ti-infobox2{
+  background-color: rgba(0,0,0,0);
+  grid-row: 33/38;
+  grid-column: 4/17;
+}
+
+div.ti-infobox2 h4{
+  font-size: 1vw;
+  color: black;
+  text-align: left;
+}
+
+div.ti-infobox3{
+  background-color: rgba(0,0,0,0);
+  grid-row: 49/55;
+  grid-column: 1/22;
+}
+
+div.ti-infobox3 h3{
+  font-size: 8vw;
+  font-weight: bolder;
+  color: black;
+  text-align: right;
+}
+
+div.ti-imagebox{
+  display: grid;
+  grid-template-rows: repeat(12, 3vw);
+  grid-template-columns: repeat(33, 3vw);
+  grid-row: 53/65;
+  grid-column: 1/75;
+}
+div.ti-imagebox .imagebox-photo{
+  background: url('../img/Sweden/IMG_8947.jpg') no-repeat fixed;
+  background-size: cover;
+  grid-row: 1/12;
+  grid-column: 1/35;
+}
+div.ti-imagebox h4{
+  color: white;
+  font-size: 1vw;
+  text-align: left;
+  grid-row: 3/9;
+  grid-column: 2/12;
+
+}
+
+div.ti-imagebox h4:hover{
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.5s;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div.ti-imagebox h4:not(:hover){
+  color: white;
+  font-size: 1vw;
+  text-align: left;
+  grid-row: 3/9;
+  grid-column: 2/12;
+  transition: 0.5s;
+}
+
+div.ti-boxes{
+  background-color: rgba(0,0,0,0);
+  grid-row:39/48;
+  grid-column: 1/75;
+  display: grid;
+  grid-template-columns: repeat(75,3vw);
+}
+
+div.ti-box1{
+  background-color: rgba(255,0,0,0.3);
+  grid-column: 3/12;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+div.ti-box2{
+  background-color: rgba(255,0,0,0.6);
+  grid-column: 13/22;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+div.ti-box3{
+  background-color: rgba(255,0,0,0.9);
+  grid-column: 23/32;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+div.ti-box1 li, div.ti-box2 li, div.ti-box3 li{
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+div.ti-box1 a, div.ti-box2 a, div.ti-box3 a{
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+div.ti-box1 a:hover, div.ti-box2 a:hover, div.ti-box3 a:hover{
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 30%;
+  padding-bottom: 30%;
+  transition: 0.3s;
+}
+
+/*TOURIST-INFO-TRAINS/TRAMS >1200PX*/
+div.ti-train-part{
+  display: grid;
+  grid-template-rows: repeat(45, 3vw);
+  grid-template-columns: repeat(75, 3vw);
+  grid-gap: 0%;
+  height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+div.showcase-branch{
+  background: url('../img/plswork.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 3;
+  grid-row-end: 14;
+  grid-column: 3/32;
+}
+
+div.sc-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 5/12;
+  grid-column: 5/30;
+}
+
+div.sc-title h3{
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+div.infobox-branch{
+  grid-row: 16/22;
+  grid-column: 3/18;
+}
+div.infobox-branch h3{
+  font-size: 6vw;
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+}
+
+div.infobox2-branch{
+  grid-row: 22/34;
+  grid-column: 3/16;
+}
+
+div.infobox2-branch p{
+  font-size: 1vw;
+  color: black;
+  text-align: left;
+}
+
+div.train-image{
+  background: url('../img/statue_remove.jpg');
+  background-attachment: fixed;
+  grid-row: 19/31;
+  grid-column: 20/32;
+}
+
+div.train-map{
+  grid-row: 34/45;
+  grid-column: 3/25;
+}
+
+div.infobox3-branch{
+  grid-row: 37/43;
+  grid-column: 26/32;
+}
+div.infobox3-branch p{
+  font-size: 1vw;
+  color: black;
+  text-align: right;
+}
+/*END OF TOURIST-INFO-TRAINS/TRAMS >1200PX*/
+
+/*TOURIST-INFO-BUS >1200PX*/
+div.ti-bus-part{
+  display: grid;
+  grid-template-rows: repeat(45, 3vw);
+  grid-template-columns: repeat(75, 3vw);
+  grid-gap: 0%;
+  height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+div.showcase-branch{
+  background: url('../img/plswork.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 3;
+  grid-row-end: 14;
+  grid-column: 3/32;
+}
+
+div.sc-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 5/12;
+  grid-column: 5/30;
+}
+
+div.sc-title h3{
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+div.infobox-branch{
+  grid-row: 16/22;
+  grid-column: 3/18;
+}
+div.infobox-branch h3{
+  font-size: 6vw;
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+}
+
+div.infobox2-branch{
+  grid-row: 22/34;
+  grid-column: 3/16;
+}
+
+div.infobox2-branch p{
+  font-size: 1vw;
+  color: black;
+  text-align: left;
+}
+
+div.bus-image{
+  background: url('../img/Sweden/IMG_9015.jpg');
+  background-attachment: fixed;
+  background-position: 10vw 0;
+  background-size: contain;
+  grid-row: 19/31;
+  grid-column: 20/32;
+}
+
+div.bus-map{
+  grid-row: 34/45;
+  grid-column: 3/25;
+}
+
+div.infobox3-branch{
+  grid-row: 37/43;
+  grid-column: 26/32;
+}
+div.infobox3-branch p{
+  font-size: 1vw;
+  color: black;
+  text-align: right;
+}
+/* END OF TOURIST-INFO-BUS >1200PX*/
+
+/*TOURIST-INFO-BOAT PAGE >1200PX*/
+div.ti-boat-part{
+  display: grid;
+  grid-template-rows: repeat(45, 3vw);
+  grid-template-columns: repeat(75, 3vw);
+  grid-gap: 0%;
+  height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+div.showcase-branch{
+  background: url('../img/plswork.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 3;
+  grid-row-end: 14;
+  grid-column: 3/32;
+}
+
+div.sc-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 5/12;
+  grid-column: 5/30;
+}
+
+div.sc-title h3{
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+div.infobox-branch{
+  grid-row: 16/22;
+  grid-column: 3/18;
+}
+div.infobox-branch h3{
+  font-size: 6vw;
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+}
+
+div.infobox2-branch{
+  grid-row: 22/34;
+  grid-column: 3/16;
+}
+
+div.infobox2-branch p{
+  font-size: 1vw;
+  color: black;
+  text-align: left;
+}
+
+div.boat-image{
+  background: url('../img/statue_remove.jpg');
+  background-attachment: fixed;
+  grid-row: 19/31;
+  grid-column: 20/32;
+}
+
+div.boat-map{
+  grid-row: 34/45;
+  grid-column: 3/25;
+}
+
+div.infobox3-branch{
+  grid-row: 35/43;
+  grid-column: 26/32;
+}
+div.infobox3-branch p{
+  font-size: 1vw;
+  color: black;
+  text-align: right;
+}
+
+div.next-ti{
+  grid-row: 56/58;
+  grid-column: 31/34;
+}
+div.next-ti a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 3%;
+  padding-right: 10%;
+  transition: 0.3s;
+}
+div.next-ti a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+div.prev-ti{
+  grid-row: 56/58;
+  grid-column: 1/4;
+}
+div.prev-ti a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+div.prev-ti a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* END OF TOURIST-INFO-BOAT PAGE >1200PX*/
+
+/*END OF TOURIST INFORMATION PAGE >1200PX*/
+
+/*Attraction 1 page >1200PX*/
+div.attr-area{
+display: grid;
+grid-template-rows: repeat(52, 3vw);
+grid-template-columns: repeat(75, 3vw);
+height: 100vh;
+grid-gap: 0%;
+background-color: white;
+
+overflow-x: hidden;
+}
+
+div.attr-area .attrsc-branch{
+  background: url('../img/plswork.jpg') no-repeat;
+  background-size: cover;
+  grid-row-start: 3;
+  grid-row-end: 14;
+  grid-column: 3/32;
+}
+
+div.attr-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 5/12;
+  grid-column: 5/30;
+}
+
+div.attr-title h1{
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+div.attr1-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/Sweden/IMG_8678.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr2-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr3-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr4-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr5-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr6-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr7-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr8-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr9-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr10-image{
+  grid-row: 16/30;
+  grid-column: 3/21;
+  background: url('../img/hostels.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-rows: repeat(14,2vw);
+  grid-template-columns: repeat(20,2vw);
+}
+
+div.attr-header{
+  grid-row: 16/23;
+  grid-column: 21/32;
+
+}
+
+div.attr-header h2{
+  color: black;
+  font-size: 6vw;
+  font-weight: bolder;
+  text-align: right;
+}
+
+div.attr-info{
+  grid-row: 24/30;
+  grid-column: 23/32;
+}
+
+div.attr-info p{
+  font-size: 1vw;
+  color: black;
+  text-align: right;
+}
+
+div.attr-carousel{
+  display: grid;
+  grid-template-rows: repeat(17, 3vw);
+  grid-template-columns: repeat(33, 3vw);
+  scroll-behavior: smooth;
+  grid-row: 32/49;
+  grid-column: 1/75;
+}
+
+#carouselExampleIndicators{
+  width: 100vw;
+  height: 50vw;
+}
+div.carousel-inner{
+  width: 100vw;
+  height: 100vw;
+}
+
+div.attr-info2{
+  z-index: 30;
+  position: absolute;
+  display: grid;
+  grid-template-rows: repeat(22,2vw);
+  grid-template-columns: repeat(50,2vw);
+}
+
+div.attr-info2 p{
+  color: white;
+  font-size: 1vw;
+  grid-row: 15/22;
+  grid-column: 2/22;
+}
+div.attr-info2 p:hover{
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.5s;
+  padding: 5%;
+}
+
+div.attr-info2 p:not(:hover){
+  color: white;
+  font-size: 1vw;
+  transition: 0.5s;
+}
+/*End of Attraction 1 page >1200PX*/
+div.next-attr {
+  grid-row: 49/52;
+  grid-column: 25/35;
+}
+div.next-attr a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-right: 10%;
+  padding-left: 3%;
+  transition: 0.3s;
+}
+
+div.next-attr a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+div.prev-attr {
+  grid-row: 49/52;
+  grid-column: 1/12;
+}
+div.prev-attr a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+
+div.prev-attr a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/*PTS-HOTELS >1200PX*/
+div.pts-area{
+display: grid;
+grid-template-rows: repeat(40, 3vw);
+grid-template-columns: repeat(75, 3vw);
+grid-gap: 0%;
+height: 100vh;
+background-color: white;
+
+overflow-x: hidden;
+}
+
+div.pts-area .ptssc-branch{
+  grid-row-start: 3;
+  grid-row-end: 14;
+  grid-column: 3/32;
+}
+
+div.pts-title{
+  background-color: rgba(0,0,0,0.5);
+  grid-row: 5/12;
+  grid-column: 5/30;
+}
+
+div.pts-title h1{
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+div.pts-title h3{
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+div.ptsbranch-info{
+  grid-row: 16/23;
+  grid-column: 5/17;
+}
+.ptsbranch-info h1{
+  font-size: 6vw;
+  font-weight: bolder;
+  text-align: right;
+  color: black;
+}
+.ptsbranch-info2{
+  grid-row: 16/23;
+  grid-column: 17/30;
+}
+.ptsbranch-info2 p{
+  font-size: 1vw;
+  text-align: left;
+  color: black;
+  padding: 5%;
+}
+
+div.ptsbranch-carousel{
+  display: grid;
+  grid-template-rows: repeat(14, 3vw);
+  grid-template-columns: repeat(29, 3vw);
+  scroll-behavior: smooth;
+  grid-row: 23/38;
+  grid-column: 3/32;
+}
+
+#PTScarouselExampleIndicators{
+  width: 87vw;
+  height: 40vw;
+}
+
+div.carousel-inner{
+  width: 89vw;
+  height: 45vw;
+}
+
+
+a.carousel-control-prev{
+  top: 33vw;
+}
+a.carousel-control-next{
+  top: 33vw;
+}
+
+div.ptr-info2{
+  z-index: 30;
+  position: absolute;
+  display: grid;
+  grid-template-rows: repeat(21,2vw);
+  grid-template-columns: repeat(50,2vw);
+}
+div.ptr-info2 h1{
+  color: black;
+  font-size: 5vw;
+  font-weight: bolder;
+  grid-row: 3/9;
+  grid-column:3/42;
+  padding: 5%;
+}
+
+div.ptr-info2 h1:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+div.ptr-info2 h1:not(:hover){
+  color: black;
+  font-size: 5vw;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+div.ptr-info2 p{
+  color: black;
+  background-color: rgba(0,0,0,0);
+  font-size: 2vw;
+  grid-row: 10/19;
+  grid-column: 7/20;
+  padding: 12%;
+  text-align: center;
+  font-weight: 100;
+}
+div.ptr-info2 iframe{
+  grid-row: 10/19;
+  grid-column: 21/45;
+  width: 38vw;
+  height: 17vw;
+}
+
+div.next-pts {
+  grid-row: 38/50;
+  grid-column: 23/40;
+}
+div.next-pts a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-right: 10%;
+  padding-left: 3%;
+  transition: 0.3s;
+}
+
+div.next-pts a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+div.prev-pts {
+  grid-row: 38/40;
+  grid-column: 1/4;
+}
+div.prev-pts a:hover{
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 3%;
+  transition: 0.3s;
+}
+
+div.prev-pts a:not(:hover){
+  font-size: 3vw;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/*PTS-BB'S >1200PX*/
+
+/*PTS-HOSTELS >1200PX*/
+
+/*PTS-CAMPSITES >1200PX*/
+}
