@@ -1813,7 +1813,7 @@ div.pts-boxes{
   grid-row: 16/29;
   grid-column: 18/20;
   width: 40vw;
-  background-color: white;
+  background-color: #292b2c;
   overflow-y: scroll;
 }
 
