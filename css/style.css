@@ -1469,7 +1469,7 @@ div.boat-map iframe{
   }
 
   div.sc_picture{
-    background: url('../img/Sweden/IMG_8959.JPG') no-repeat;
+    background: url('../img/Sweden/IMG_8959.jpg') no-repeat;
     background-size: cover;
     grid-row-start: 1;
     grid-row-end: 3;
