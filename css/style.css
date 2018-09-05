@@ -1461,7 +1461,7 @@ div.boat-map iframe{
     overflow-y: scroll;
 }
 
-  .showcase{
+  div.showcase{
     display: grid;
     grid-template-columns: 9vw 81vw 9vw;
     grid-template-rows: 9vw 25vw 9vw;
@@ -1473,7 +1473,7 @@ div.boat-map iframe{
     background-position-y: 50%;
   }
 
-  .showcase h1{
+  div.showcase h1{
     color: white;
     font-size: 8vw;
     grid-column: 2;
