@@ -240,13 +240,13 @@ div.panel{
   }
 
   div.panel a:hover{
-    transition: 0.3s;
+    transition: 0.5s;
     color: white;
     font-weight: bolder;
     text-decoration: underline;
     background-color: rgba(255, 0, 0, 0.5);
-    padding-left: 40vw;
-    padding-right: 40vw;
+    padding-left: 30vw;
+    padding-right: 30vw;
     padding-bottom: 7vw;
     padding-top: 7vw;
   }
