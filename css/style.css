@@ -378,6 +378,39 @@ div.p9{
     margin-top: 0px;
   }
 
+  div.attr-part .showcase{
+    display: grid;
+    grid-row: 1/15;
+    grid-column: 1/21;
+    background: url('../img/Sweden/IMG_8900.JPG') no-repeat;
+    background-size: cover;
+    grid-template-rows: repeat(14, 5vw);
+    grid-template-columns: repeat(20, 5vw);
+    margin-top: 0px;
+  }
+
+  div.pts-part .showcase{
+    background: url('../img/Sweden/IMG_8782.JPG') no-repeat;
+    background-size: cover;
+    grid-row: 1/15;
+    grid-column: 1/21;
+    display: grid;
+    grid-template-rows: repeat(14, 5vw);
+    grid-template-columns: repeat(20, 5vw);
+    margin-top: 0px;
+  }
+
+  div.ti-part .showcase{
+    background: url('../img/Sweden/IMG_8779.JPG') no-repeat;
+    background-size: cover;
+    grid-row: 1/15;
+    grid-column: 1/21;
+    display: grid;
+    grid-template-rows: repeat(14, 5vw);
+    grid-template-columns: repeat(20, 5vw);
+    margin-top: 0px;
+  }
+
 div.atr-info{
   background-color: rgba(0,0,0,0.5);
   color: white;
