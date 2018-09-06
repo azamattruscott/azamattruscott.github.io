@@ -361,7 +361,7 @@ div.p9{
 
   div.attr-part{
     display: grid;
-    grid-template-rows: repeat(60, 5vw);
+    grid-template-rows: repeat(65, 5vw);
     grid-template-columns: repeat(20, 5vw);
     background-color: white;
     height: 100vh;
@@ -430,10 +430,11 @@ div.atr-info h1{
 }
 
 div.atr-info p{
-  font-size: 2vw;
-  margin-top: 5vw;
+  font-size: 3vw;
+  margin-top: -3vw;
   color: white;
-  padding: 25px;
+  padding: 12px;
+  text-align: left;
 }
 
 div.atr-info2{
@@ -449,15 +450,16 @@ div.atr-info2{
 }
 
 div.atr-info2 p{
-  font-size: 2vw;
+  font-size: 3vw;
   margin-top: 5vw;
   color: white;
   padding: 25px;
 
-  grid-row:3/11;
-  grid-column: 10/16;
+  grid-row:2/11;
+  grid-column: 10/17;
   padding: 0px;
   margin: 0px;
+  text-align: right;
 }
 
   div.boxes{
@@ -469,7 +471,7 @@ div.atr-info2 p{
   }
 
   div.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(160, 100, 0, 0.5);
     margin-left: 10px;
     margin: 10px;
     height: 75vw;
@@ -484,6 +486,7 @@ div.atr-info2 p{
     font-size: 1.3vw;
     text-decoration: none;
     list-style: none;
+    color: black;
   }
 
   div.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a, .box7 a, .box8 a, .box9 a, .box10 a{
@@ -508,20 +511,20 @@ div.atr-info2 p{
   }
   div.atr-infobox1 h3{
     color: black;
-    font-size: 10vw;
+    font-size: 11vw;
     font-weight: bolder;
   }
 
   div.atr-infobox2{
     background-color: white;
-    grid-row: 54/60;
+    grid-row: 55/63;
     grid-column: 7/20;
     text-align: right;
   }
 
   div.atr-infobox2 h4{
     color: black;
-    font-size: 2vw;
+    font-size: 3vw;
   }
 /*END OF ATTRACTIONS PAGE  <730PX*/
 
