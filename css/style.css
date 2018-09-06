@@ -152,7 +152,7 @@ div.wordArea{
 
 div.wordArea h1{
   font-size: 25px;
-  font-family: Times;
+  font-family: inherit;
 }
 
 div.wordArea p{
