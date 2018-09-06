@@ -530,7 +530,7 @@ div.atr-info2 p{
 
 div.pts-part{
   display: grid;
-  grid-template-rows: repeat(60, 5vw);
+  grid-template-rows: repeat(150, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
   height: 100vh;
@@ -541,7 +541,7 @@ div.HeaderArea{
   grid-template-rows: repeat(25,2vw);
   grid-template-columns: repeat(40,2vw);
   background-color: rgba(0,0,0,0.5);
-  grid-row: 13/25;
+  grid-row: 13/33;
   grid-column: 2/17;
 }
 div.HeaderArea h1{
@@ -552,7 +552,7 @@ div.HeaderArea h1{
   grid-column: 3/38;
 }
 div.HeaderArea p{
-  font-size: 2vw;
+  font-size: 3vw;
   color: white;
   grid-row: 7/19;
   grid-column: 3/35;
@@ -560,37 +560,39 @@ div.HeaderArea p{
 
 .pts-info{
   background-color: rgba(255,0,0,0.5);
-  grid-row: 23/32;
-  grid-column: 5/20;
+  grid-row: 32/57;
+  grid-column: 7/20;
   overflow-y: scroll;
+  z-index: 1;
 }
 .pts-info p{
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 4vw;
+  text-align: right;
 }
 
 .pts-info2{
-  grid-row: 54/61;
-  grid-column: 12/20;
+  grid-row: 80/90;
+  grid-column: 11/20;
 }
 .pts-info2 h3{
-  font-size: 10vw;
+  font-size: 11vw;
   color: black;
   font-weight: bolder;
   text-align: right;
 }
 .pts-info3{
-  grid-row: 51/65;
+  grid-row: 75/99;
   grid-column:2/11;
 }
 .pts-info3 h4{
-  font-size: 2vw;
+  font-size: 3vw;
   color: black;
 }
 
 div.pts-boxes{
-  grid-row: 33/49;
+  grid-row: 58/74;
   grid-column:1/21;
   background-color: rgba(0,0,0,0);
   overflow-x: scroll;
