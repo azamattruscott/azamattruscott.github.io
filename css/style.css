@@ -301,55 +301,55 @@ div.container{
 }
 
 div.p1{
-  background: url(../img/NEW_SWEDEN/IMG_8983.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_8983.jpg) no-repeat;
   background-size: cover;
   grid-row: 1/9;
   grid-column: 2/7;
 }
 div.p2{
-  background: url(../img/NEW_SWEDEN/IMG_9005.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_9005.jpg) no-repeat;
   background-size: cover;
   grid-row: 10/23;
   grid-column: 1/6;
 }
 div.p3{
-  background: url(../img/NEW_SWEDEN/IMG_8775.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_8775.jpg) no-repeat;
   background-size: cover;
   grid-row: 24/33;
   grid-column: 2/7;
 }
 div.p4{
-  background: url(../img/NEW_SWEDEN/IMG_8962.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_8962.jpg) no-repeat;
   background-size: cover;
   grid-row: 34/44;
   grid-column: 3/8;
 }
 div.p5{
-  background: url(../img/NEW_SWEDEN/IMG_8995.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_8995.jpg) no-repeat;
   background-size: cover;
   grid-row: 45/52;
   grid-column: 1/5;
 }
 div.p6{
-  background: url(../img/NEW_SWEDEN/IMG_8956.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_8956.jpg) no-repeat;
   background-size: cover;
   grid-row: 53/60;
   grid-column: 2/8;
 }
 div.p7{
-  background: url(../img/NEW_SWEDEN/IMG_8637.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_8637.jpg) no-repeat;
   background-size: cover;
   grid-row: 61/72;
   grid-column: 1/7;
 }
 div.p8{
-  background: url(../img/NEW_SWEDEN/IMG_9015.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_9015.jpg) no-repeat;
   background-size: cover;
   grid-row: 73/88;
   grid-column: 2/8;
 }
 div.p9{
-  background: url(../img/NEW_SWEDEN/IMG_9006.JPG) no-repeat;
+  background: url(../img/NEW_SWEDEN/IMG_9006.jpg) no-repeat;
   background-size: cover;
   grid-row: 89/99;
   grid-column: 1/8;
