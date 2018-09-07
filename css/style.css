@@ -271,7 +271,7 @@ div.showcase h1{
 div.wordArea{
   grid-row: 13/28;
   grid-column: 2/20;
-  background-color: rgba(0,0,0,0.5);
+  background: rgba(0,165,130,0.7);
   display: grid;
   grid-template-rows: repeat(22, 3vw);
   grid-template-columns: repeat(13, 5vw);
@@ -481,7 +481,7 @@ div.atr-info2 p{
   }
 
   div.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-    background-color: rgba(160, 100, 0, 0.5);
+    background-color: rgba(110, 100, 0, 0.4);
     margin-left: 10px;
     margin: 10px;
     height: 75vw;
@@ -668,7 +668,7 @@ div.pts-boxes{
 
 div.ti-part{
   display: grid;
-  grid-template-rows: repeat(100, 5vw);
+  grid-template-rows: repeat(150, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
   height: 100vh;
@@ -677,10 +677,11 @@ div.ti-info{
   display: grid;
   grid-template-rows: repeat(45,2vw);
   grid-template-columns: repeat(30,2vw);
-  grid-row: 12/26;
+  grid-row: 12/29;
   grid-column: 8/20;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(84,73,75,0.8);
   overflow-y: scroll;
+  z-index: 1;
 }
 div.ti-info h1{
   color: white;
@@ -691,13 +692,13 @@ div.ti-info h1{
 }
 div.ti-info p{
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   grid-row: 9/31;
   grid-column: 7/26;
 }
 
 div.ti-info2{
-  background-color: rgba(255,0,0,0.5);
+  background-color: rgba(126,130,135,0.8);
   grid-row: 16/34;
   grid-column: 2/10;
   display: grid;
@@ -708,40 +709,40 @@ div.ti-info2{
 }
 div.ti-info2 p{
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   grid-row: 1/40;
   grid-column: 1/14;
 }
 
 div.ti-infobox1{
-  grid-row: 28/34;
-  grid-column: 11/20;
+  grid-row: 30/38;
+  grid-column: 9/20;
 }
 div.ti-infobox1 h3{
   color: black;
-  font-size: 9vw;
+  font-size: 11vw;
   font-weight: bolder;
   text-align: right;
 }
 div.ti-infobox2{
-  grid-row: 36/41;
+  grid-row: 38/45;
   grid-column: 2/20;
 }
 div.ti-infobox2 h4{
   color: black;
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: right;
 }
 
 div.ti-boxes{
   grid-column: 1/21;
-  grid-row: 42/58;
+  grid-row: 46/62;
   background-color: rgba(0,0,0,0);
   display: -webkit-box;
   overflow-x: scroll;
 }
 div.ti-box1{
-  background-color: rgba(255,0,0,0.3);
+  background-color: rgba(157,163,154,1);
   margin: 3vw;
   width: 75vw;
   align-items: center;
@@ -751,7 +752,7 @@ div.ti-box1{
 }
 
 div.ti-box2{
-  background-color: rgba(255,0,0,0.6);
+  background-color: rgba(185,131,137,1);
   margin: 3vw;
   width: 75vw;
   align-items: center;
@@ -761,7 +762,7 @@ div.ti-box2{
 }
 
 div.ti-box3{
-  background-color: rgba(255,0,0,0.9);
+  background-color: rgba(219,41,85,1);
   margin: 3vw;
   width: 75vw;
   align-items: center;
@@ -1629,7 +1630,7 @@ div.wordArea{
   grid-template-columns: repeat(14,2vw);
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,165,130,0.7);
   overflow-y: hidden;
 
 }
