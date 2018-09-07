@@ -817,14 +817,14 @@ div.ti-imagebox .imagebox-photo{
 }
 
 div.ti-imagebox h4{
-  color: white;
+  color: black;
   font-size: 3vw;
   text-align: left;
   grid-row: 2/15;
   grid-column: 2/19;
 }
 div.ti-imagebox h4:hover{
-  font-size: 2vw;
+  font-size: 3vw;
   color: white;
   text-decoration: none;
   background-color: rgba(0,0,0,0.3);
@@ -832,8 +832,8 @@ div.ti-imagebox h4:hover{
   padding: 0.5%;
 }
 div.ti-imagebox h4:not(:hover){
-  font-size: 2vw;
-  color: white;
+  font-size: 3vw;
+  color: black;
   text-decoration: none;
   transition: 0.3s;
 }
