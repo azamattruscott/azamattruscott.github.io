@@ -672,7 +672,7 @@ div.pts-boxes{
 
 div.ti-part{
   display: grid;
-  grid-template-rows: repeat(150, 5vw);
+  grid-template-rows: repeat(95, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
 }
@@ -817,7 +817,7 @@ div.infobox4{
   grid-column: 2/11;
 }
 
-div.infobox4  h4{
+div.infobox4 h4{
   color: black;
   font-size: 3vw;
   text-align: left;
@@ -1301,7 +1301,7 @@ div.infobox-branch h3{
 
 div.infobox2-branch{
   grid-row: 19/38;
-  grid-column: 2/11;
+  grid-column: 2/10;
 }
 div.infobox2-branch p{
   font-size: 3vw;
@@ -1309,11 +1309,13 @@ div.infobox2-branch p{
 }
 
 div.bus-image{
-  background: url('../img/Sweden/IMG_1915.jpg');
-  grid-row: 19/35;
+  background: url('../img/Sweden/IMG_9015.jpg');
+  grid-row: 19/38;
   grid-column: 11/20;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -23vw 0vw;
 }
 
 div.train-image{
@@ -1385,7 +1387,7 @@ div.prev-ti a:not(:hover){
 }
 
 div.bus-map{
-  grid-row: 40/53;
+  grid-row: 42/53;
   grid-column: 11/20;
   z-index: -1;
 }
