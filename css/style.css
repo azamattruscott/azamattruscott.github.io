@@ -1309,7 +1309,7 @@ div.infobox2-branch p{
 }
 
 div.bus-image{
-  background: url('../img/Sweden/IMG_1915.JPG');
+  background: url('../img/Sweden/IMG_1915.jpg');
   grid-row: 19/35;
   grid-column: 11/20;
   background-size: cover;
