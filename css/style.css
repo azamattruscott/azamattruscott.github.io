@@ -271,7 +271,7 @@ div.showcase h1{
 div.wordArea{
   grid-row: 13/28;
   grid-column: 2/20;
-  background: rgba(0,165,130,0.7);
+  background: rgba(65,153,115,0.85);
   display: grid;
   grid-template-rows: repeat(22, 3vw);
   grid-template-columns: repeat(13, 5vw);
@@ -793,8 +793,8 @@ div.ti-box1 a:hover, div.ti-box2 a:hover, div.ti-box3 a:hover{
 }
 
 div.ti-infobox3{
-  grid-row: 59/61;
-  grid-column: 5/18;
+  grid-row: 63/65;
+  grid-column: 2/15;
 }
 div.ti-infobox3 h3{
   font-size: 9vw;
@@ -806,11 +806,11 @@ div.ti-imagebox{
   display: grid;
   grid-template-rows: repeat(15, 3vw);
   grid-template-columns: repeat(33, 3vw);
-  grid-row: 63/74;
+  grid-row: 66/77;
   grid-column: 1/21;
 }
 div.ti-imagebox .imagebox-photo{
-  background: url('../img/NotherDopePic.JPG') no-repeat;
+  background: url('../img/Sweden/IMG_8773.jpg') no-repeat;
   background-size: cover;
   grid-row: 1/15;
   grid-column: 1/35;
@@ -818,7 +818,7 @@ div.ti-imagebox .imagebox-photo{
 
 div.ti-imagebox h4{
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: left;
   grid-row: 2/15;
   grid-column: 2/19;
