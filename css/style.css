@@ -675,7 +675,6 @@ div.ti-part{
   grid-template-rows: repeat(150, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
-  height: 100vh;
 }
 div.ti-info{
   display: grid;
@@ -807,10 +806,15 @@ div.ti-infobox3 h3{
 }
 
 div.ti-imagebox{
-  grid-row: 66/77;
+  grid-row: 66/92;
   grid-column: 1/21;
   background: url('../img/Sweden/IMG_8773.JPG') no-repeat;
   background-size: cover;
+}
+
+div.infobox4{
+  grid-row: 67/73;
+  grid-column: 2/11;
 }
 
 div.infobox4  h4{
@@ -824,9 +828,9 @@ div.infobox4 h4:hover{
   font-size: 3vw;
   color: white;
   text-decoration: none;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   transition: 0.3s;
-  padding: 0.5%;
+  padding: 10%;
 }
 div.infobox4  h4:not(:hover){
   font-size: 3vw;
