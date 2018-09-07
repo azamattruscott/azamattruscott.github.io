@@ -1304,10 +1304,10 @@ div.infobox-branch h3{
 
 div.infobox2-branch{
   grid-row: 19/38;
-  grid-column: 2/10;
+  grid-column: 2/11;
 }
 div.infobox2-branch p{
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: left;
 }
 
@@ -1388,29 +1388,32 @@ div.prev-ti a:not(:hover){
 }
 
 div.bus-map{
-  grid-row: 42/56;
-  grid-column: 2/20;
+  grid-row: 40/53;
+  grid-column: 11/20;
+  z-index: -1;
 }
 div.bus-map iframe{
-  width: 90vw;
+  width: 46vw;
   height: 65vw;
 }
 
 div.train-map{
-  grid-row: 42/56;
-  grid-column: 2/20;
+  grid-row: 40/53;
+  grid-column: 11/20;
+  z-index: -1;
 }
 div.train-map iframe{
-  width: 90vw;
+  width: 46vw;
   height: 65vw;
 }
 
 div.boat-map{
-  grid-row: 42/56;
-  grid-column: 2/20;
+  grid-row: 40/53;
+  grid-column: 11/20;
+  z-index: -1;
 }
 div.boat-map iframe{
-  width: 90vw;
+  width: 46vw;
   height: 65vw;
 }
 
