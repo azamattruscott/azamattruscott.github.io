@@ -810,7 +810,7 @@ div.ti-imagebox{
   grid-column: 1/21;
 }
 div.ti-imagebox .imagebox-photo{
-  background: url('../img/Sweden/IMG_8773.jpg') no-repeat;
+  background: url('../img/Sweden/IMG_8773.JPG') no-repeat;
   background-size: cover;
   grid-row: 1/15;
   grid-column: 1/35;
