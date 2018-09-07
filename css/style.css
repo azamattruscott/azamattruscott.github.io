@@ -208,10 +208,14 @@ button.accordion{
 }
 
 button.accordion:hover{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.8);
   font-weight: bolder;
   transition: 1s;
 }
+button.accordion:not(hover){
+  background-color: rgba(0,0,0,0.5);
+  font-weight: bolder;
+  transition: 1s;
 
 button.accordion.active{
   background-color: rgba(0,0,0,0.8);
