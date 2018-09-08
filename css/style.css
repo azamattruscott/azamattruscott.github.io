@@ -902,7 +902,7 @@ div.ptsbranch-carousel{
   grid-template-rows: repeat(39, 3vw);
   grid-template-columns: repeat(30, 3vw);
   scroll-behavior: smooth;
-  grid-row: 34/54;
+  grid-row: 35/55;
   grid-column: 2/20;
 }
 
@@ -961,7 +961,7 @@ div.ptr-info2 iframe{
 }
 
 div.next-pts {
-  grid-row: 57/60;
+  grid-row: 58/61;
   grid-column: 17/21;
 }
 div.next-pts a:hover{
@@ -984,7 +984,7 @@ div.next-pts a:not(:hover){
 }
 
 div.prev-pts {
-  grid-row: 57/60;
+  grid-row: 58/61;
   grid-column: 1/4;
 }
 div.prev-pts a:hover{
