@@ -842,7 +842,7 @@ div.infobox4  h4:not(:hover){
 
 div.pts-area{
   display: grid;
-  grid-template-rows: repeat(100, 5vw);
+  grid-template-rows: repeat(110, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
   height: 100vh;
@@ -878,23 +878,23 @@ div.pts-title h3{
 }
 
 div.ptsbranch-info{
-  grid-row: 17/22;
+  grid-row: 16/23;
   grid-column: 2/20;
 }
 div.ptsbranch-info h1{
-  font-size: 9vw;
+  font-size: 11vw;
   text-align: center;
   font-weight: bolder;
 }
 
 
 div.ptsbranch-info2{
-  grid-row: 22/27;
+  grid-row: 24/27;
   grid-column: 2/20;
 }
 
 div.ptsbranch-info2 p{
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 div.ptsbranch-carousel{
@@ -902,13 +902,13 @@ div.ptsbranch-carousel{
   grid-template-rows: repeat(39, 3vw);
   grid-template-columns: repeat(30, 3vw);
   scroll-behavior: smooth;
-  grid-row: 28/48;
+  grid-row: 34/54;
   grid-column: 2/20;
 }
 
 #PTScarouselExampleIndicators{
-  width: 87vw;
-  height: 117vw;
+  width: 90vw;
+  height: 120vw;
 }
 div.carousel-inner{
   height: 100vw;
@@ -948,7 +948,7 @@ div.ptr-info2 h1:not(:hover){
 div.ptr-info2 p{
   color: black;
   background-color: rgba(0,0,0,0);
-  font-size: 2vw;
+  font-size: 3vw;
   grid-row: 9/19;
   grid-column: 1/46;
   padding: 5%;
@@ -961,11 +961,11 @@ div.ptr-info2 iframe{
 }
 
 div.next-pts {
-  grid-row: 52/54;
+  grid-row: 57/60;
   grid-column: 17/21;
 }
 div.next-pts a:hover{
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -976,7 +976,7 @@ div.next-pts a:hover{
 }
 
 div.next-pts a:not(:hover){
-  font-size: 3vw;
+  font-size: 5vw;
   color: black;
   font-weight: bolder;
   text-decoration: none;
@@ -984,11 +984,11 @@ div.next-pts a:not(:hover){
 }
 
 div.prev-pts {
-  grid-row: 52/54;
+  grid-row: 57/60;
   grid-column: 1/4;
 }
 div.prev-pts a:hover{
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -999,7 +999,7 @@ div.prev-pts a:hover{
 }
 
 div.prev-pts a:not(:hover){
-  font-size: 3vw;
+  font-size: 5vw;
   color: black;
   font-weight: bolder;
   text-decoration: none;
