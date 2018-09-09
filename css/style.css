@@ -1352,7 +1352,7 @@ div.next-ti{
   grid-column: 18/21;
 }
 div.next-ti a:hover{
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -1362,7 +1362,7 @@ div.next-ti a:hover{
   transition: 0.3s;
 }
 div.next-ti a:not(:hover){
-  font-size: 3vw;
+  font-size: 5vw;
   color: black;
   font-weight: bolder;
   text-decoration: none;
@@ -1373,7 +1373,7 @@ div.prev-ti{
   grid-column: 1/4;
 }
 div.prev-ti a:hover{
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -1383,7 +1383,7 @@ div.prev-ti a:hover{
   transition: 0.3s;
 }
 div.prev-ti a:not(:hover){
-  font-size: 3vw;
+  font-size: 5vw;
   color: black;
   font-weight: bolder;
   text-decoration: none;
