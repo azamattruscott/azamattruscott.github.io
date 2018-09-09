@@ -1325,14 +1325,16 @@ div.train-image{
   grid-column: 11/20;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div.boat-image{
-  background: url('../img/statue_remove.JPG');
+  background: url('../img/Sweden/IMG_8646.JPG');
   grid-row: 19/35;
   grid-column: 11/20;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div.infobox3-branch{
