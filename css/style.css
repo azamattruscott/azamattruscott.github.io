@@ -1052,14 +1052,14 @@ div.attr-info{
   grid-column: 2/20;
 }
 div.attr-info p{
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: left;
 }
 
 div.attr1-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url(../img/Sweden/IMG_8678.JPG) no-repeat;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1166,7 +1166,7 @@ div.attr-info2{
 
 div.attr-info2 p{
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   grid-row: 2/25;
   grid-column: 2/22;
   text-align: left;
@@ -1174,14 +1174,14 @@ div.attr-info2 p{
 div.attr-info2 p:hover{
   background-color: rgba(0,0,0,0.3);
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 5%;
   text-align: left;
   transition: 0.3s;
 }
 div.attr-info2 p:not(:hover){
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: left;
   transition: 0.3s;
 }
