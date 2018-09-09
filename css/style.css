@@ -1398,7 +1398,7 @@ div.bus-map iframe{
 }
 
 div.train-map{
-  grid-row: 40/53;
+  grid-row: 42/53;
   grid-column: 11/20;
   z-index: -1;
 }
@@ -1408,7 +1408,7 @@ div.train-map iframe{
 }
 
 div.boat-map{
-  grid-row: 40/53;
+  grid-row: 42/53;
   grid-column: 11/20;
   z-index: -1;
 }
