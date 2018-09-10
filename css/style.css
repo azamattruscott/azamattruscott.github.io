@@ -1175,6 +1175,7 @@ div.attr-info2 p{
   grid-column: 1/20;
   text-align: left;
   background-color: rgba(0,0,0,0.5);
+  display: table;
 }
 div.attr-info2 p:hover{
   background-color: rgba(0,0,0,0.5);
