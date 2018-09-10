@@ -1172,7 +1172,7 @@ div.attr-info2 p{
   color: white;
   font-size: 3vw;
   grid-row: 3/31;
-  grid-column: 1/20;
+  grid-column: 1/32;
   text-align: left;
   background-color: rgba(0,0,0,0.5);
   display: table;
@@ -1199,7 +1199,7 @@ div.carousel-item{
 
 div.next-attr {
   grid-row: 51/53;
-  grid-column: 13/21;
+  grid-column: 12/21;
 }
 div.next-attr a:hover{
   font-size: 5vw;
