@@ -1016,7 +1016,7 @@ div.attr-area{
 }
 
 div.attr-area .attrsc-branch{
-  grid-row: 6/19;
+  grid-row: 6/15;
   grid-column: 2/20;
 }
 
@@ -1038,7 +1038,7 @@ div.attr-title h1{
 }
 
 div.attr-header{
-  grid-row: 17/22;
+  grid-row: 16/22;
   grid-column: 2/20;
 }
 div.attr-header h2{
@@ -1048,20 +1048,24 @@ div.attr-header h2{
 }
 
 div.attr-info{
-  grid-row: 35/38;
-  grid-column: 2/20;
+  grid-row: 19/38;
+  grid-column: 10/21;
 }
 div.attr-info p{
   font-size: 3vw;
-  text-align: left;
+  text-align: right;
+  color: white;
+  padding: 4%;
+  background-color: rgba(0,0,0,0.5);
+
 }
 
 div.attr1-image{
-  grid-row: 22/34;
-  grid-column: 2/20;
+  grid-row: 21/33;
+  grid-column: 1/16;
   background: url(../img/Sweden/IMG_8678.JPG) no-repeat;
 
-  background-size: contain;
+  background-size: cover;
   scroll-behavior: smooth;
 }
 div.attr2-image{
@@ -1137,7 +1141,7 @@ div.attr-carousel{
   grid-template-rows: repeat(20, 3vw);
   grid-template-columns: repeat(33, 3vw);
   scroll-behavior: smooth;
-  grid-row: 39/55;
+  grid-row: 37/56;
   grid-column: 1/21;
 }
 
@@ -1167,17 +1171,19 @@ div.attr-info2{
 div.attr-info2 p{
   color: white;
   font-size: 3vw;
-  grid-row: 2/25;
-  grid-column: 2/22;
+  grid-row: 3/31;
+  grid-column: 1/20;
   text-align: left;
+  background-color: rgba(0,0,0,0.5);
 }
 div.attr-info2 p:hover{
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   color: white;
   font-size: 3vw;
   padding: 5%;
   text-align: left;
   transition: 0.3s;
+  background-color: rgba(0,0,0,0.5);
 }
 div.attr-info2 p:not(:hover){
   color: white;
@@ -1192,10 +1198,10 @@ div.carousel-item{
 
 div.next-attr {
   grid-row: 51/53;
-  grid-column: 15/21;
+  grid-column: 13/21;
 }
 div.next-attr a:hover{
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -1206,7 +1212,7 @@ div.next-attr a:hover{
 }
 
 div.next-attr a:not(:hover) {
-    font-size: 3vw;
+    font-size: 5vw;
     color: black;
     font-weight: bolder;
     text-decoration: none;
@@ -1218,7 +1224,7 @@ div.prev-attr {
   grid-column: 1/8;
 }
 div.prev-attr a:hover{
-  font-size: 3vw;
+  font-size: 5vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -1228,7 +1234,7 @@ div.prev-attr a:hover{
   transition: 0.3s;
 }
 div.prev-attr a:not(:hover){
-  font-size: 3vw;
+  font-size: 5vw;
   color: black;
   font-weight: bolder;
   text-decoration: none;
