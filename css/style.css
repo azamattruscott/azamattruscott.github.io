@@ -1095,7 +1095,7 @@ div.attr4-image{
 div.attr5-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url(../img/Sweden/20170904_133633.JPG) no-repeat;
   background-size: contain;
   scroll-behavior: smooth;
 }
@@ -2517,7 +2517,7 @@ div.attr3-image{
 div.attr4-image{
   grid-row: 16/30;
   grid-column: 3/21;
-  background: url('../img/hostels.JPG') no-repeat;
+  background: url('../img/Sweden/IMG_8647.JPG') no-repeat;
   background-attachment: fixed;
   background-size: contain;
   scroll-behavior: smooth;
