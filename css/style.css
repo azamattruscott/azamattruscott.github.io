@@ -275,7 +275,7 @@ div.showcase h1{
 div.wordArea{
   grid-row: 13/28;
   grid-column: 2/20;
-  background: rgba(65,153,115,0.85);
+  background: rgba(50,11,95,0.87);
   display: grid;
   grid-template-rows: repeat(22, 3vw);
   grid-template-columns: repeat(13, 5vw);
@@ -1657,9 +1657,8 @@ div.wordArea{
   grid-template-columns: repeat(14,2vw);
   align-items: center;
   justify-content: center;
-  background: rgba(0,165,130,0.7);
+  background: rgba(50,11,95,0.87);
   overflow-y: hidden;
-
 }
 
 div.wordArea h1{
