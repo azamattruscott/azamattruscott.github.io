@@ -2080,6 +2080,18 @@ div.ti-infobox3 h3{
   text-align: right;
 }
 
+div.ti-infobox4{
+  grid-column: 62/65;
+  grid-row: 2/11;
+}
+
+div.ti-infobox4 h4{
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+}
+
 div.ti-imagebox{
   display: grid;
   grid-template-rows: repeat(12, 3vw);
