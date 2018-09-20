@@ -382,7 +382,7 @@ div.p9{
   }
 
   div.showcase{
-    background: url('../img/Sweden/20170902_201123.JPG') no-repeat;
+    background: url('../img/Sweden/20170902_201123.jpg') no-repeat;
     background-size: cover;
     grid-row: 1/15;
     grid-column: 1/21;
@@ -1541,7 +1541,7 @@ div.boat-map iframe{
     display: grid;
     grid-template-columns: 9vw 81vw 9vw;
     grid-template-rows: 9vw 25vw 9vw;
-    background: url('../img/Sweden/20170902_201123.JPG') no-repeat;
+    background: url('../img/Sweden/20170902_201123.jpg') no-repeat;
     background-size: cover;
     grid-row-start: 1;
     grid-row-end: 3;
