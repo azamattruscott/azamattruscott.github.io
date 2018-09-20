@@ -2010,7 +2010,7 @@ div.ti-part .showcase{
 }
 
 div.ti-info{
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(84,73,75,0.8);
   grid-row: 12/27;
   grid-column: 17/31;
   padding: 10px;
@@ -2018,6 +2018,7 @@ div.ti-info{
   display: grid;
   grid-template-rows: repeat(22, 2vw);
   grid-template-columns: repeat(22, 2vw);
+  z-index: 99;
 }
 
 div.ti-info h1{
@@ -2039,7 +2040,7 @@ div.ti-info p{
 }
 
 div.ti-info2{
-  background-color: rgba(255,0,0,0.5);
+  background-color: rgba(126,130,135,0.8);
   grid-row: 19/32;
   grid-column: 4/19;
   border-radius: 1.5vw;
@@ -2094,7 +2095,7 @@ div.ti-infobox3 h3{
 }
 
 div.infobox4{
-  grid-row: : 54/70;
+  grid-row: 55/70;
   grid-column: 2/11;
 }
 
@@ -2161,7 +2162,7 @@ div.ti-boxes{
 }
 
 div.ti-box1{
-  background-color: rgba(255,0,0,0.3);
+  background-color: rgba(157,163,154,1);
   grid-column: 3/12;
   border-radius: 1.5vw;
   align-items: center;
@@ -2171,7 +2172,7 @@ div.ti-box1{
 }
 
 div.ti-box2{
-  background-color: rgba(255,0,0,0.6);
+  background-color: rgba(185,131,137,1);
   grid-column: 13/22;
   border-radius: 1.5vw;
   align-items: center;
@@ -2181,7 +2182,7 @@ div.ti-box2{
 }
 
 div.ti-box3{
-  background-color: rgba(255,0,0,0.9);
+  background-color: rgba(219,41,85,1);
   grid-column: 23/32;
   border-radius: 1.5vw;
   align-items: center;
