@@ -2080,16 +2080,24 @@ div.ti-infobox3 h3{
   text-align: right;
 }
 
-div.ti-infobox4{
-  grid-column: 62/65;
-  grid-row: 2/11;
+div.infobox4{
+  grid-row: : 54/65;
+  grid-column: 2/11;
 }
 
-div.ti-infobox4 h4{
-  font-size: 1vw;
-  font-weight: bold;
+div.infobox4 h4{
+  font-size: 3vw;
+  color: black;
+  text-decoration: none;
+}
+
+div.infobox4 h4:hover{
+  font-size: 3vw;
   color: white;
+  text-decoration: none;
   background-color: rgba(0,0,0,0.5);
+  transition: 0.3s;
+  padding: 10%;
 }
 
 div.ti-imagebox{
