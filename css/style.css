@@ -279,7 +279,7 @@ div.wordArea{
   display: grid;
   grid-template-rows: repeat(22, 3vw);
   grid-template-columns: repeat(13, 5vw);
-
+  border-radius: 3.5vw;
 }
 
 div.wordArea h1{
@@ -432,6 +432,7 @@ div.atr-info{
   grid-column:2/11;
   z-index: 99;
   overflow-y: scroll;
+  border-radius: 3.5vw;
 }
 
 div.atr-info h1{
@@ -455,11 +456,10 @@ div.atr-info2{
   grid-row: 16/29;
   grid-column: 3/20;
   background-color: rgba(147,0,0,1);
-
+  border-radius: 3.5vw;
   display: grid;
   grid-template-rows: repeat(13, 5vw);
   grid-template-columns: repeat(17, 5vw);
-
   overflow-y: scroll;
   z-index: 0;
 }
@@ -495,6 +495,7 @@ div.atr-info2 p{
     justify-content: center;
     text-align: center;
     display: flex;
+    border-radius: 3.5vw;
   }
 
   div.box1 li, .box2 li, .box3 li, .box4 li, .box5 li, .box6 li, .box7 li, .box8 li, .box9 li, .box10 li{
@@ -519,6 +520,7 @@ div.atr-info2 p{
     transition: 0.3s;
     color: white;
     text-decoration: underline;
+    border-radius: 3.5vw;
   }
   div.atr-infobox1{
     background-color: rgba(0,0,0,0);
@@ -563,6 +565,7 @@ div.HeaderArea{
   background-color: rgba(0,0,0,0.5);
   grid-row: 13/33;
   grid-column: 2/17;
+  border-radius: 3.5vw;
 }
 div.HeaderArea h1{
   font-size: 5vw;
@@ -584,6 +587,7 @@ div.HeaderArea p{
   grid-column: 7/20;
   overflow-y: scroll;
   z-index: 1;
+  border-radius: 3.5vw;
 }
 .pts-info p{
   color: white;
@@ -632,18 +636,22 @@ div.pts-boxes{
 .pts-box1{
   background-color: rgba(200, 0, 50, 1);
   background-size: cover;
+  border-radius: 3.5vw;
 }
 .pts-box2{
   background-color: rgba(200, 0, 50, 0.75);
   background-size: cover;
+  border-radius: 3.5vw;
 }
 .pts-box3{
   background-color: rgba(200, 0, 50, 0.5);
   background-size: cover;
+  border-radius: 3.5vw;
 }
 .pts-box4{
   background-color: rgba(200, 0, 50, 0.25);
   background-size: cover;
+  border-radius: 3.5vw;
 }
 
 .pts-box1 li, .pts-box2 li, .pts-box3 li, .pts-box4 li{
@@ -668,6 +676,7 @@ div.pts-boxes{
   transition: 0.3s;
   color: white;
   text-decoration: underline;
+  border-radius: 3.5vw;
 }
 .pts-box1 a:not(:hover), .pts-box2 a:not(:hover), .pts-box3 a:not(:hover),.pts-box4 a:not(:hover){
   transition: 0.2s;
@@ -688,6 +697,7 @@ div.ti-info{
   background-color: rgba(84,73,75,0.8);
   overflow-y: scroll;
   z-index: 1;
+  border-radius: 3.5vw;
 }
 div.ti-info h1{
   color: white;
@@ -712,6 +722,7 @@ div.ti-info2{
   grid-template-columns: repeat(16, 2vw);
   padding: 4vw;
   overflow-y: scroll;
+  border-radius: 3.5vw;
 }
 div.ti-info2 p{
   color: white;
@@ -755,6 +766,7 @@ div.ti-box1{
   justify-content: center;
   text-align: center;
   display: flex;
+  border-radius: 3.5vw;
 }
 
 div.ti-box2{
@@ -765,6 +777,7 @@ div.ti-box2{
   justify-content: center;
   text-align: center;
   display: flex;
+  border-radius: 3.5vw;
 }
 
 div.ti-box3{
@@ -775,6 +788,7 @@ div.ti-box3{
   justify-content: center;
   text-align: center;
   display: flex;
+  border-radius: 3.5vw;
 }
 
 div.ti-box1 li, div.ti-box2 li, div.ti-box3 li{
@@ -796,6 +810,7 @@ div.ti-box1 a:hover, div.ti-box2 a:hover, div.ti-box3 a:hover{
   padding-top: 30%;
   padding-bottom: 30%;
   transition: 0.3s;
+  border-radius: 3.5vw;
 }
 
 div.ti-infobox3{
@@ -835,6 +850,7 @@ div.infobox4 h4:hover{
   background-color: rgba(0,0,0,0.5);
   transition: 0.3s;
   padding: 10%;
+  border-radius: 3.5vw;
 }
 div.infobox4  h4:not(:hover){
   font-size: 3vw;
