@@ -248,11 +248,12 @@ div.panel{
     color: white;
     font-weight: bolder;
     text-decoration: underline;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 5vw;
     padding-top: 5vw;
+    border-radius: 3.5vw;
   }
 
 div.main-part{
