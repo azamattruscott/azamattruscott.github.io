@@ -1082,7 +1082,7 @@ div.attr2-image{
 div.attr3-image{
   grid-row: 22/35;
   grid-column: 2/15;
-  background: url(../img/Sweden/Attr3_IMG2.JPG) no-repeat -4vw -21vw;
+  background: url(..img/Sweden/Attr3_IMG2.JPG) -4vw -21vw;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1098,9 +1098,8 @@ div.attr4-image{
 div.attr5-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/Sweden/20170904_133633.JPG) no-repeat;
+  background: url(../img/Sweden/20170904_133633.JPG);
   background-size: contain;
-  scroll-behavior: smooth;
 }
 div.attr6-image{
   grid-row: 22/34;
@@ -1175,7 +1174,7 @@ div.attr-info2 p{
   color: white;
   font-size: 3vw;
   grid-row: 3/31;
-  grid-column: 1/32;
+  grid-column: 1/44;
   text-align: left;
   background-color: rgba(0,0,0,0.5);
   display: table;
@@ -1503,6 +1502,7 @@ div.boat-map iframe{
     line-height: 80px;
     color: white;
     font-size: 20px;
+    overflow-y: scroll;
     }
 
     div.panel a{
@@ -1521,6 +1521,7 @@ div.boat-map iframe{
       padding-bottom: 1vw;
       padding-top: 1vw;
       background: rgba(0,0,0,0.5);
+      border-radius: 1.5vw;
     }
 
 
