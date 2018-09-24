@@ -1369,8 +1369,15 @@ div.infobox3-branch{
   grid-column: 2/20;
 }
 div.infobox3-branch p{
-  font-size: 2vw;
+  font-size: 4vw;
+  font-weight: 100;
   text-align: left;
+}
+
+div.infobox3-branch a{
+  color: black;
+  font-weight: 700;
+  font-size: 3vw;
 }
 
 div.next-ti{
@@ -2286,10 +2293,11 @@ div.infobox2-branch p{
 }
 
 div.train-image{
-  background: url('../img/statue_remove.JPG');
+  background: url(../img/Sweden/IMG_8796.JPG) -9vw 3vw;
   background-attachment: fixed;
+  background-size: contain;
   grid-row: 19/31;
-  grid-column: 20/32;
+  grid-column: 21/32;
 }
 
 div.train-map{
@@ -2441,11 +2449,13 @@ div.infobox2-branch p{
   text-align: left;
 }
 
+
 div.boat-image{
-  background: url('../img/statue_remove.JPG');
+  background: url(../img/Sweden/IMG_8646.JPG) -9vw 0vw;
   background-attachment: fixed;
+  background-size: contain;
   grid-row: 19/31;
-  grid-column: 20/32;
+  grid-column: 21/32;
 }
 
 div.boat-map{
@@ -2454,13 +2464,31 @@ div.boat-map{
 }
 
 div.infobox3-branch{
-  grid-row: 35/43;
-  grid-column: 26/32;
+  grid-row: 33/34;
+  grid-column: 21/32;
+  background-color: black;
 }
 div.infobox3-branch p{
-  font-size: 1vw;
-  color: black;
+  font-size: 1.8vw;
+  color: white;
   text-align: right;
+  font-weight: bolder;
+  padding-top: 0.3vw;
+  padding-left: 0.3vw;
+}
+
+div.infobox3-branch a{
+  color: black;
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+div.infobox3-branch a:hover{
+  color: white;
+  background-color: black;
+  font-weight: 700;
+  font-size: 1.5vw;
+  padding-left: 10%;
 }
 
 div.next-ti{
@@ -2569,8 +2597,8 @@ div.attr2-image{
 
 div.attr3-image{
   grid-row: 16/30;
-  grid-column: 3/21;
-  background: url(../img/Sweden/Attr3_IMG2.JPG) no-repeat;
+  grid-column: 3/26;
+  background: url(../img/Sweden/Attr3_IMG2.JPG) 16vw -1vw no-repeat;
   background-attachment: fixed;
   background-size: contain;
   scroll-behavior: smooth;
@@ -2582,9 +2610,9 @@ div.attr3-image{
 div.attr4-image{
   grid-row: 16/30;
   grid-column: 3/21;
-  background: url('../img/Sweden/IMG_8647.JPG') no-repeat;
+  background: url('../img/Sweden/IMG_8647.JPG') -20vw -12vw no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
   scroll-behavior: smooth;
   display: grid;
   grid-template-rows: repeat(14,2vw);
