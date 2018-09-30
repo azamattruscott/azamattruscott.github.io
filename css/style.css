@@ -2623,7 +2623,7 @@ div.attr4-image{
 div.attr5-image{
   grid-row: 16/30;
   grid-column: 18/10;
-  background: url(../img/Sweden/20170904_133633.JPG) ;
+  background: url('../img/Sweden/20170904_133633.JPG');
   background-attachment: fixed;
   background-size: contain;
   scroll-behavior: smooth;
