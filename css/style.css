@@ -1453,8 +1453,43 @@ div.boat-map iframe{
   height: 65vw;
 }
 
+/*---------------ABOUT ME PAGE---------------*/
+div.AboutMe-area {
+  display: grid;
+  grid-template-rows: repeat(70, 3vw);
+  grid-template-columns: repeat(75, 3vw);
+  grid-gap: 0%;
+  background-color: white;
+  height: 100vh;
+  overflow-x: hidden;
+}
 
+div.page-title{
 
+}
+div.page-title h1{
+
+}
+
+div.Name-title{
+
+}
+
+div.Name-title h2{
+
+}
+
+div.picture-frame{
+
+}
+
+div.Information-area{
+
+}
+
+div.Information-area p{
+
+}
 }
 
 @media screen and (min-width: 426px) and (max-width: 2560px) {
@@ -2981,9 +3016,5 @@ div.prev-pts a:not(:hover){
   transition: 0.5s;
 }
 
-/*PTS-BB'S >1200PX*/
-
-/*PTS-HOSTELS >1200PX*/
-
-/*PTS-CAMPSITES >1200PX*/
+/*---------------ABOUT ME PAGE---------------*/
 }
