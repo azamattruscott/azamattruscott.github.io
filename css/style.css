@@ -1456,31 +1456,30 @@ div.boat-map iframe{
 /*---------------ABOUT ME PAGE---------------*/
 div.AboutMe-area {
   display: grid;
-  grid-template-rows: repeat(70, 3vw);
-  grid-template-columns: repeat(75, 3vw);
-  grid-gap: 0%;
+  grid-template-rows: repeat(95, 5vw);
+  grid-template-columns: repeat(20, 5vw);
   background-color: white;
-  height: 100vh;
-  overflow-x: hidden;
 }
 
 div.page-title{
-  grid-column: 1/1;
-  grid-row: 1/1;
+  grid-column: 3/19;
+  grid-row: 7/10;
 }
 div.page-title h1{
-  font-size: 9vw;
+  font-size: 14vw;
   font-weight: bolder;
+  text-align: center;
 }
 
 div.Name-title{
-  grid-column: 10/10;
-  grid-row: 10/10;
+  grid-column: 4/18;
+  grid-row: 13/16;
 }
 
 div.Name-title h2{
   font-size: 5vw;
   font-weight: bolder;
+  text-align: center;
 }
 
 div.picture-frame{
@@ -2292,7 +2291,6 @@ div.ti-train-part{
 }
 
 div.showcase-branch{
-  background: url('../img/plswork.JPG') no-repeat;
   background-size: cover;
   grid-row-start: 3;
   grid-row-end: 14;
@@ -2370,7 +2368,6 @@ div.ti-bus-part{
 }
 
 div.showcase-branch{
-  background: url('../img/plswork.JPG') no-repeat;
   background-size: cover;
   grid-row-start: 3;
   grid-row-end: 14;
@@ -2449,7 +2446,6 @@ div.ti-boat-part{
 }
 
 div.showcase-branch{
-  background: url('../img/plswork.JPG') no-repeat;
   background-size: cover;
   grid-row-start: 3;
   grid-row-end: 14;
@@ -3027,7 +3023,7 @@ div.prev-pts a:not(:hover){
 
 div.AboutMe-area {
   display: grid;
-  grid-template-rows: repeat(70, 3vw);
+  grid-template-rows: repeat(40, 3vw);
   grid-template-columns: repeat(75, 3vw);
   grid-gap: 0%;
   background-color: white;
