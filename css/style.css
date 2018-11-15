@@ -230,7 +230,7 @@ div.panel{
   transition: 0.3s;
   grid-row: 2/20;
   position: absolute;
-  bottom: -375px;
+  bottom: -456px;
   width: 100vw;
   line-height: 80px;
   color: white;
@@ -1473,13 +1473,9 @@ div.page-title h1{
 
 div.Name-title{
   grid-column: 4/18;
-  grid-row: 13/16;
-}
-
-div.Name-title h2{
-  font-size: 5vw;
-  font-weight: bolder;
-  text-align: center;
+  grid-row: 11/16;
+  background: url('../img/Sweden/signature.JPG') 5vw 1vw no-repeat;
+  background-size: cover;
 }
 
 div.pic-frame1{
@@ -3067,12 +3063,9 @@ div.page-title h1{
 
 div.Name-title{
   grid-column: 20/33;
-  grid-row: 15/17;
-}
-
-div.Name-title h2{
-  font-size: 5vw;
-  font-weight: bolder;
+  grid-row: 12/17;
+  background: url('../img/Sweden/signature.JPG') 5vw 1vw no-repeat;
+  background-size: cover;
 }
 
 div.pic-frame1{
