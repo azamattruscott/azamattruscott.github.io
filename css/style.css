@@ -1482,20 +1482,44 @@ div.Name-title h2{
   text-align: center;
 }
 
-div.picture-frame{
-  grid-column: 20/20;
-  grid-row: 20/20;
+div.pic-frame1{
+  grid-column: 2/20;
+  grid-row: 70/87;
   background-color: green;
 }
 
-div.Information-area{
-  grid-column: 25/25;
-  grid-row: 25/25;
+div.pic-frame2{
+  grid-column: 7/20;
+  grid-row: 48/69;
+  background-color: blue;
 }
 
-div.Information-area p{
-  font-size: 2vw;
+div.pic-frame3{
+  grid-column: 2/17;
+  grid-row: 32/47;
+  background-color: red;
 }
+
+div.Information-area1{
+  grid-column: 4/18;
+  grid-row: 17/25;
+}
+
+div.Information-area2{
+  grid-column: 4/18;
+  grid-row: 24/32;
+}
+
+div.Information-area1 p{
+  font-size: 2vw;
+  text-align: center;
+}
+
+div.Information-area2 p{
+  font-size: 2vw;
+  text-align: center;
+}
+
 }
 
 @media screen and (min-width: 426px) and (max-width: 2560px) {
