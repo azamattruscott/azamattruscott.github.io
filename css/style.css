@@ -1474,7 +1474,7 @@ div.page-title h1{
 div.Name-title{
   grid-column: 4/18;
   grid-row: 11/16;
-  background: url('../img/Sweden/signature.JPG') 5vw 1vw no-repeat;
+  background: url('../img/Sweden/signature.jpg') 5vw 1vw no-repeat;
   background-size: cover;
 }
 
@@ -3064,7 +3064,7 @@ div.page-title h1{
 div.Name-title{
   grid-column: 20/33;
   grid-row: 12/17;
-  background: url('../img/Sweden/signature.JPG') 5vw 1vw no-repeat;
+  background: url('../img/Sweden/signature.jpg') 5vw 1vw no-repeat;
   background-size: cover;
 }
 
