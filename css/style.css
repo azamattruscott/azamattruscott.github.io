@@ -1456,7 +1456,7 @@ div.boat-map iframe{
 /*---------------ABOUT ME PAGE---------------*/
 div.AboutMe-area {
   display: grid;
-  grid-template-rows: repeat(95, 5vw);
+  grid-template-rows: repeat(85, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
 }
@@ -1480,20 +1480,26 @@ div.Name-title{
 
 div.pic-frame1{
   grid-column: 2/20;
-  grid-row: 70/87;
+  grid-row: 70/82;
   background-color: green;
+  background: url('../img/Sweden/NY1.jpg') no-repeat;
+  background-size: contain;
 }
 
 div.pic-frame2{
   grid-column: 7/20;
   grid-row: 48/69;
   background-color: blue;
+  background: url('../img/Sweden/STO1.jpg') no-repeat;
+  background-size: cover;
 }
 
 div.pic-frame3{
-  grid-column: 2/17;
+  grid-column: 1/21;
   grid-row: 32/47;
   background-color: red;
+  background: url('../img/Sweden/MyPicture.jpg') -4vw -1vw no-repeat;
+  background-size: cover;
 }
 
 div.Information-area1{
@@ -3069,21 +3075,27 @@ div.Name-title{
 }
 
 div.pic-frame1{
-  grid-column: 2/16;
+  grid-column: 1/17;
   grid-row: 4/17;
   background-color: green;
+  background: url('../img/Sweden/MyPicture.jpg') -7vw 4vw no-repeat;
+  background-size: cover;
 }
 
 div.pic-frame2{
   grid-column: 10/19;
-  grid-row: 16/27;
+  grid-row: 18/29;
   background-color: blue;
+  background: url('../img/Sweden/STO1.jpg') 1vw -8vw no-repeat;
+  background-size: cover;
 }
 
 div.pic-frame3{
-  grid-column: 4/16;
-  grid-row: 26/37;
+  grid-column: 4/22;
+  grid-row: 30/40;
   background-color: red;
+  background: url('../img/Sweden/NY1.jpg') no-repeat;
+  background-size: contain;
 }
 
 div.Information-area1{
