@@ -1083,7 +1083,7 @@ div.attr-info p{
 div.attr1-image{
   grid-row: 21/33;
   grid-column: 1/16;
-  background: url(../img/Sweden/IMG_8678.JPG) no-repeat;
+  background: url('../img/Sweden/IMG_8678.JPG') no-repeat;
 
   background-size: cover;
   scroll-behavior: smooth;
@@ -1091,7 +1091,7 @@ div.attr1-image{
 div.attr2-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/Sweden/IMG_8828.JPG) no-repeat;
+  background: url('../img/Sweden/IMG_8828.JPG') no-repeat;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1099,7 +1099,7 @@ div.attr2-image{
 div.attr3-image{
   grid-row: 22/35;
   grid-column: 2/15;
-  background: url(..img/Sweden/Attr3_IMG2.JPG) -4vw -21vw;
+  background: url('..img/Sweden/Attr3_IMG2.JPG') -4vw -21vw;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1107,7 +1107,7 @@ div.attr3-image{
 div.attr4-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/Sweden/IMG_8647.JPG) no-repeat;
+  background: url('../img/Sweden/IMG_8647.JPG') no-repeat;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1115,20 +1115,20 @@ div.attr4-image{
 div.attr5-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/Sweden/20170904_133633.JPG);
+  background: url('../img/Sweden/20170904_133633.JPG');
   background-size: contain;
 }
 div.attr6-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url('../img/hostels.JPG') no-repeat;
   background-size: contain;
   scroll-behavior: smooth;
 }
 div.attr7-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url('../img/hostels.JPG') no-repeat;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1136,21 +1136,21 @@ div.attr7-image{
 div.attr8-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url('../img/hostels.JPG') no-repeat;
   background-size: contain;
   scroll-behavior: smooth;
 }
 div.attr9-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url('../img/hostels.JPG') no-repeat;
   background-size: contain;
   scroll-behavior: smooth;
 }
 div.attr10-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url(../img/hostels.JPG) no-repeat;
+  background: url('../img/hostels.JPG') no-repeat;
   background-size: contain;
   scroll-behavior: smooth;
 }
