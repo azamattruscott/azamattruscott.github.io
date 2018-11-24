@@ -1053,7 +1053,7 @@ div.attr-title h1{
   font-size: 12vw;
   color: white;
   text-align: center;
-  grid-row: 3/7;
+  grid-row: 2/7;
   grid-column: 2/16;
 }
 
@@ -1099,7 +1099,7 @@ div.attr2-image{
 div.attr3-image{
   grid-row: 22/35;
   grid-column: 2/15;
-  background: url('..img/Sweden/Attr3_IMG2.JPG') -4vw -21vw;
+  background: url('..img/Sweden/Attr3_IMG2.jpg') -4vw -21vw;
 
   background-size: contain;
   scroll-behavior: smooth;
@@ -1115,44 +1115,8 @@ div.attr4-image{
 div.attr5-image{
   grid-row: 22/34;
   grid-column: 2/20;
-  background: url('../img/Sweden/20170904_133633.JPG');
+  background: url('../img/Sweden/20170904_133633.JPG') no-repeat;
   background-size: contain;
-}
-div.attr6-image{
-  grid-row: 22/34;
-  grid-column: 2/20;
-  background: url('../img/hostels.JPG') no-repeat;
-  background-size: contain;
-  scroll-behavior: smooth;
-}
-div.attr7-image{
-  grid-row: 22/34;
-  grid-column: 2/20;
-  background: url('../img/hostels.JPG') no-repeat;
-
-  background-size: contain;
-  scroll-behavior: smooth;
-}
-div.attr8-image{
-  grid-row: 22/34;
-  grid-column: 2/20;
-  background: url('../img/hostels.JPG') no-repeat;
-  background-size: contain;
-  scroll-behavior: smooth;
-}
-div.attr9-image{
-  grid-row: 22/34;
-  grid-column: 2/20;
-  background: url('../img/hostels.JPG') no-repeat;
-  background-size: contain;
-  scroll-behavior: smooth;
-}
-div.attr10-image{
-  grid-row: 22/34;
-  grid-column: 2/20;
-  background: url('../img/hostels.JPG') no-repeat;
-  background-size: contain;
-  scroll-behavior: smooth;
 }
 
 div.attr-carousel{
