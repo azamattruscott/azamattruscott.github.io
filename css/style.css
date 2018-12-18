@@ -2627,7 +2627,7 @@ div.attr2-image{
 div.attr3-image{
   grid-row: 16/30;
   grid-column: 3/26;
-  background: url('../img/Sweden/Attr3_IMG2.JPG') 16vw -1vw no-repeat;
+  background: url('../img/Sweden/Attr3_IMG2.jpg') 16vw -1vw no-repeat;
   background-attachment: fixed;
   background-size: contain;
   scroll-behavior: smooth;
