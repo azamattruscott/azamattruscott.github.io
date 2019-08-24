@@ -1552,7 +1552,7 @@ div.Information-area2 p{
     transition: 0.3s;
     grid-row-start: 2;
     position: absolute;
-    bottom: -456px;
+    bottom: -67vh;
     width: 100vw;
     line-height: 80px;
     color: white;
