@@ -365,6 +365,11 @@ div.panel{
     font-size: 25px;
   }
 
+  .nav-links li a:hover{
+    text-decoration: underline;
+    pointer: cursor;
+  }
+
   .nav-links li:nth-child(1){
     transition: all 0.5s ease 0.2s;
   }
@@ -1694,11 +1699,11 @@ div.Information-area2 p{
     }
 
     .hamburger{
-      position: absolute;
+      position: fixed;
       cursor: pointer;
       right: 90%;
-      top: 80%;
-      transform: translate(-90%, 80%);
+      top: 3%;
+      transform: translate(-90%, 3%);
       z-index: 3;
     }
 
@@ -1730,6 +1735,10 @@ div.Information-area2 p{
       font-size: 25px;
     }
 
+    .nav-links li a:hover{
+      text-decoration: underline;
+    }
+
     .nav-links li:nth-child(1){
       transition: all 0.5s ease 0.2s;
     }
@@ -1745,72 +1754,6 @@ div.Information-area2 p{
     li.fade{
       opacity: 1;
     }
-
-
-  button.accordion{
-    cursor: pointer;
-    border:none;
-    outline: none;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    color: #fff;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bolder;
-    transition: 1s;
-    grid-row-start: 1;
-    position: fixed;
-  }
-
-  button.accordion:hover{
-    background-color: rgba(0,0,0,0.7);
-    font-weight: bolder;
-    font-size: 20px;
-    color: white;
-    text-decoration: underline;
-    transition: 0.1s;
-  }
-
-  button.accordion.active{
-    background-color: rgba(0,0,0,0.8);
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
-  }
-
-  div.panel{
-    display: inline-table;
-    background-color: rgba(0,0,0,0.5);
-    transition: 0.3s;
-    grid-row-start: 2;
-    position: absolute;
-    width: 100vw;
-    line-height: 80px;
-    color: white;
-    font-size: 20px;
-    }
-
-    div.panel a{
-      font-weight: bolder;
-      color: white;
-      width: 100%;
-    }
-
-    div.panel a:hover{
-      transition: 0.1s;
-      color: white;
-      font-weight: bolder;
-      text-decoration: underline;
-      padding-left: 5vw;
-      padding-right: 5vw;
-      padding-bottom: 1vw;
-      padding-top: 1vw;
-      background: rgba(0,0,0,0.5);
-      border-radius: 1.5vw;
-    }
-
-
 
   .main-part{
     display: grid;
@@ -2276,11 +2219,9 @@ div.pts-info3 h4{
 /*TOURIST INFORMATION PAGE >1200PX*/
 div.ti-part{
 display: grid;
-grid-template-rows: repeat(70, 3vw);
+grid-template-rows: repeat(65, 3vw);
 grid-template-columns: repeat(75, 3vw);
-grid-gap: 0%;
 background-color: white;
-height: 100vh;
 overflow-x: hidden;
 }
 
@@ -2305,7 +2246,6 @@ div.ti-info{
   display: grid;
   grid-template-rows: repeat(22, 2vw);
   grid-template-columns: repeat(22, 2vw);
-  z-index: 99;
 }
 
 div.ti-info h1{
@@ -2369,16 +2309,27 @@ div.ti-infobox2 h4{
 }
 
 div.ti-infobox3{
+  display: grid;
+  grid-template-rows: repeat(9,5vw);
+  grid-template-columns: repeat(4,9vw);
   background-color: rgba(0,0,0,0);
-  grid-row: 49/55;
-  grid-column: 1/22;
+  grid-row: 50/58;
+  grid-column: 3/16;
 }
 
 div.ti-infobox3 h3{
+  grid-row: 1/5;
+  grid-column:1/5;
   font-size: 8vw;
   font-weight: bolder;
   color: black;
-  text-align: right;
+  text-align: left;
+}
+
+.ti-infobox3 h4{
+  grid-row: 5/9;
+  grid-column:1/3;
+  font-size: 1vw;
 }
 
 div.infobox4{
@@ -2402,15 +2353,12 @@ div.infobox4 h4:hover{
   border-radius: 1.5vw;
 }
 
-div.ti-imagebox{
-  display: grid;
-  grid-template-rows: repeat(12, 3vw);
-  grid-template-columns: repeat(33, 3vw);
-  grid-row: 53/65;
-  grid-column: 1/75;
-  background: url('../img/Sweden/IMG_8773.JPG') no-repeat fixed;
-  background-position: 0vw -54vw;
+.ti-imagebox{
+  grid-row: 50/65;
+  grid-column: 15/33;
+  background: url('../img/Sweden/IMG_8773.JPG') no-repeat;
   background-size: cover;
+  background-position: 0% 35%;
 }
 
 div.ti-imagebox h4{
@@ -2419,7 +2367,7 @@ div.ti-imagebox h4{
   text-align: left;
   grid-row: 3/9;
   grid-column: 2/12;
-  z-index: 99;
+  z-index: 2;
 }
 
 div.ti-imagebox h4:hover{

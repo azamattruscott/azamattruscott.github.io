@@ -17,20 +17,23 @@
 
   </head>
   <body>
+    <nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html ">Home</a></li>
+        <li><a href="attractions.html ">Attractions</a></li>
+        <li><a href="pts.html ">Places to Stay</a></li>
+        <li><a href="ti.html ">Tourist-Info</a></li>
+      </ul>
+    </nav>
 
-    <div class="button-wrapper">
-       <button class="accordion">MENU</button>
-        <div class="panel"; style="position: absolute";>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="attractions.html">Attractions</a></li>
-            <li><a href="pts.html">Places to Stay</a></li>
-            <li><a href="ti.html">Tourist-Info</a></li>
-          </ul>
-        </div>
-    </div>
+    <script src="./JS/java.js"></script>
 
-   <div class="ti-part"; style="height: 100vh";>
+   <div class="ti-part">
      <div class="showcase">
        <h1>Tourist Info</h1>
      </div>
@@ -62,6 +65,10 @@ Stockholm’s transportation links allow you to reach your destination in a vari
 
       <div class="ti-infobox3">
          <h3>Prefer to walk?</h3>
+         <h4>
+           Walking is always an option. It’s free, it’s healthy and it takes you at your own pace. Stockholm is very walkable. You can walk almost everywhere within the Swedish Capital within a day – just if you’re planning in doing so, wear comfortable shoes…as said before.
+           However, if your main day is intent upon walking, or specifically hiking, then there are walking routes which would last you a day or more. The main ones being “Roslagsleden”, “Sörmlandsleden” and “Upplandsleden”.
+         </h4>
       </div>
 
     <div class="ti-boxes">
@@ -85,34 +92,8 @@ Stockholm’s transportation links allow you to reach your destination in a vari
     </div>
 
     <div class="ti-imagebox">
-       <div class="imagebox-photo">
-       </div>
-       <h4>
-Walking is always an option. It’s free, it’s healthy and it takes you at your own pace. Stockholm is very walkable. You can walk almost everywhere within the Swedish Capital within a day – just if you’re planning in doing so, wear comfortable shoes…as said before.
-However, if your main day is intent upon walking, or specifically hiking, then there are walking routes which would last you a day or more. The main ones being “Roslagsleden”, “Sörmlandsleden” and “Upplandsleden”.
-</h4>
     </div>
   </div>
-
-
-
-
-   <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-          acc[i].onclick = function(){
-              this.classList.toggle("active");
-              var panel = this.nextElementSibling;
-              if (panel.style.display === "block") {
-                  panel.style.display = "none";
-              } else {
-                  panel.style.display = "block";
-              }
-          }
-      }
-   </script>
 
   </body>
 </html>
