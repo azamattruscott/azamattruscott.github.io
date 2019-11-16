@@ -1997,11 +1997,10 @@ div.boxes{
 
  div.pts-part{
    display: grid;
-   grid-template-rows: repeat(50, 3vw);
+   grid-template-rows: repeat(47, 3vw);
    grid-template-columns: repeat(75, 3vw);
    grid-gap: 0%;
    background-color: white;
-   height: 100vh;
    overflow-x: hidden;
    overflow-y: scroll;
 }
@@ -2047,7 +2046,7 @@ div.HeaderArea p{
 }
 
 div.pts-info{
-  grid-row: 39/48;
+  grid-row: 39/47;
   grid-column: 5/30;
   background-color: rgba(255,0,90,0.7);
   color: white;
