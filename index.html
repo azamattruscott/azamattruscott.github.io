@@ -19,28 +19,19 @@
   </head>
   <body>
 
- <!--<div class="button-wrapper">
-       <button class="accordion">MENU</button>
-        <div class="panel">
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
-            <li><a href="pts.html">Places to Stay</a></li>
-            <li><a href="ti.html">Tourist-Info</a></li>
-          </ul>
-        </div>
-    </div>-->
     <nav>
       <div class="hamburger">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </div>
-      <ul class="nav-links">
+      <ul class="nav-links-A">
         <li><a href="index.html ">Home</a></li>
         <li><a href="attractions.html ">Attractions</a></li>
         <li><a href="pts.html ">Places to Stay</a></li>
         <li><a href="ti.html ">Tourist-Info</a></li>
+      </ul>
+      <ul class="nav-links-B">
       </ul>
     </nav>
 
@@ -121,24 +112,6 @@
         <p>A town of design, elegance, innovation and style. Built upon islands, all interlocked by bridges. Stockholm is buzzing with culture, old and new. The capital of Sweden has so much to offer. Stockholm’s grandeur is emphasised through every road, narrow street and building. Contemporary architecture, contemporary fashion and contemporary way of life is resonated within every inch of this town. </p>
       </div>
    </div>
-   <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
 
-      for (i = 0; i < acc.length; i++) {
-          acc[i].onclick = function(){
-              this.classList.toggle("active");
-              var panel = this.nextElementSibling;
-              if (panel.style.display === "block") {
-                  panel.style.display = "none";
-              } else {
-                  panel.style.display = "block";
-              }
-           acc[i].offclick = function(){
-             this.classlist.toggle("offclick");
-           }
-          }
-      }
-   </script>
   </body>
 </html>
