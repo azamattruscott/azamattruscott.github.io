@@ -2834,7 +2834,7 @@ div.prev-attr a:not(:hover){
 div.pts-area{
 display: grid;
 grid-template-rows: repeat(40, 3vw);
-grid-template-columns: repeat(75, 3vw);
+grid-template-columns: repeat(35, 3vw);
 grid-gap: 0%;
 height: 100vh;
 background-color: white;
@@ -2964,7 +2964,7 @@ div.ptr-info2 iframe{
 
 div.next-pts {
   grid-row: 38/50;
-  grid-column: 23/40;
+  grid-column: 28/35;
 }
 div.next-pts a:hover{
   font-size: 3vw;
@@ -2987,7 +2987,7 @@ div.next-pts a:not(:hover){
 
 div.prev-pts {
   grid-row: 38/40;
-  grid-column: 1/4;
+  grid-column: 1/7;
 }
 div.prev-pts a:hover{
   font-size: 3vw;
