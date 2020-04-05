@@ -151,8 +151,8 @@ div.atr-container{
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 50% -10vh);
-    -webkit-clip-path: circle(100px at 50% -10vh);
+    clip-path: circle(100px at 50% -6%);
+    -webkit-clip-path: circle(100px at 50% -6%);
     transition: all 1s ease-out;
     pointer-events: none;
     text-align: -webkit-center;
@@ -998,10 +998,9 @@ div.prev-pts a:not(:hover){
 
 div.attr-area{
   display: grid;
-  grid-template-rows: repeat(50, 5vw);
+  grid-template-rows: repeat(65, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
-  height: 100vh;
 }
 
 div.attr-area .attrsc-branch{
@@ -1022,7 +1021,7 @@ div.attr-title h1{
   font-size: 12vw;
   color: white;
   text-align: center;
-  grid-row: 2/7;
+  grid-row: 3/7;
   grid-column: 2/16;
 }
 
@@ -1033,27 +1032,26 @@ div.attr-header{
 div.attr-header h2{
   font-size: 9vw;
   text-align: center;
+  text-decoration: underline;
   font-weight: bolder;
 }
 
 div.attr-info{
-  grid-row: 20/38;
-  grid-column: 10/21;
+  grid-row: 20/45;
+  grid-column: 8/21;
 }
 div.attr-info p{
-  font-size: 3vw;
+  font-size: 4vw;
   text-align: right;
   color: white;
   padding: 4%;
   background-color: rgba(0,0,0,0.5);
-
 }
 
 div.attr1-image{
-  grid-row: 21/33;
+  grid-row: 24/37;
   grid-column: 1/16;
   background: url('../img/Sweden/IMG_8678.JPG') no-repeat;
-
   background-size: cover;
   scroll-behavior: smooth;
 }
@@ -1088,12 +1086,12 @@ div.attr5-image{
   background-size: contain;
 }
 
-div.attr-carousel{
+/*div.attr-carousel{
   display: grid;
   grid-template-rows: repeat(20, 3vw);
   grid-template-columns: repeat(33, 3vw);
   scroll-behavior: smooth;
-  grid-row: 37/56;
+  grid-row: 46/56;
   grid-column: 1/21;
 }
 
@@ -1110,6 +1108,46 @@ a.carousel-control-prev{
 }
 a.carousel-control-next{
   top: 108vw;
+}*/
+
+div.attr-boxes{
+  background-color: rgba(0,0,0,0);
+  grid-row: 45/62;
+  grid-column: 1/21;
+  overflow-x: scroll;
+  display: -webkit-box;
+}
+
+div.attr-box1, .attr-box2, .attr-box3{
+  background-color: rgba(211, 211, 211, 1);
+  margin-left: 10px;
+  margin: 10px;
+  height: 75vw;
+  width: 95vw;
+}
+
+div.attr-box1-info, .attr-box2-info, .attr-box3-info{
+  background-color: rgba(0, 211, 211, 0.5);
+  margin: 10px;
+  display: grid;
+  grid-template-rows: repeat(23, 3vw);
+  grid-template-columns: repeat(30, 3vw);
+}
+
+
+div.attr-box1-info h1, .attr-box2-info h1, .attr-box3-info h1{
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  grid-row: 2/4;
+  grid-column: 2/10;
+}
+
+div.attr-box1-info p, .attr-box2-info p, .attr-box3-info p{
+  font-size: 4vw;
+  color: white;
+  grid-row: 14/19;
+  grid-column: 2/25;
 }
 
 div.attr-info2{
@@ -1150,11 +1188,11 @@ div.carousel-item{
 }
 
 div.next-attr {
-  grid-row: 51/53;
-  grid-column: 12/21;
+  grid-row: 62/64;
+  grid-column: 15/21;
 }
 div.next-attr a:hover{
-  font-size: 5vw;
+  font-size: 8vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -1165,7 +1203,7 @@ div.next-attr a:hover{
 }
 
 div.next-attr a:not(:hover) {
-    font-size: 5vw;
+    font-size: 8vw;
     color: black;
     font-weight: bolder;
     text-decoration: none;
@@ -1173,11 +1211,11 @@ div.next-attr a:not(:hover) {
 }
 
 div.prev-attr {
-  grid-row: 51/53;
-  grid-column: 1/8;
+  grid-row: 62/64;
+  grid-column: 1/10;
 }
 div.prev-attr a:hover{
-  font-size: 5vw;
+  font-size: 8vw;
   color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -1187,7 +1225,7 @@ div.prev-attr a:hover{
   transition: 0.3s;
 }
 div.prev-attr a:not(:hover){
-  font-size: 5vw;
+  font-size: 8vw;
   color: black;
   font-weight: bolder;
   text-decoration: none;
@@ -2569,7 +2607,7 @@ div.prev-ti a:not(:hover){
 /*Attraction 1 page >1200PX*/
 div.attr-area{
 display: grid;
-grid-template-rows: repeat(52, 3vw);
+grid-template-rows: repeat(100, 3vw);
 grid-template-columns: repeat(75, 3vw);
 height: 100vh;
 grid-gap: 0%;
@@ -2649,8 +2687,8 @@ div.attr4-image{
 
 div.attr5-image{
   grid-row: 16/30;
-  grid-column: 18/10;
-  background: url('../img/Sweden/Attr5IMG.JPG');
+  grid-column: 3/21;
+  background: url('../img/Sweden/IMG_8924.JPG');
   background-attachment: fixed;
   background-size: contain;
   scroll-behavior: smooth;
@@ -2740,22 +2778,75 @@ div.attr-info p{
   text-align: right;
 }
 
-div.attr-carousel{
-  display: grid;
-  grid-template-rows: repeat(17, 3vw);
-  grid-template-columns: repeat(33, 3vw);
-  scroll-behavior: smooth;
-  grid-row: 32/49;
-  grid-column: 1/75;
+div.attr-boxes{
+  background-color: rgba(0,0,0,0);
+  grid-row: 31/48;
+  grid-column: 1/35;
+  overflow-x: scroll;
+  display: -webkit-box;
 }
 
-#carouselExampleIndicators{
-  width: 100vw;
-  height: 50vw;
+div.attr-box1, .attr-box2, .attr-box3{
+  background-color: rgba(211, 211, 211, 1);
+  margin-left: 10px;
+  padding: 10px;
 }
-div.carousel-inner{
-  width: 100vw;
-  height: 100vw;
+
+div.attr-box1-info, .attr-box2-info, .attr-box3-info{
+  background-color: rgba(211, 0, 0, 0.5);
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(15, 3vw);
+  grid-template-columns: repeat(29, 3vw);
+}
+
+
+div.attr-box1-info h1, .attr-box2-info h1, .attr-box3-info h1{
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+  grid-row: 2/4;
+  grid-column: 2/10;
+}
+
+div.attr-box1-info p, .attr-box2-info p, .attr-box3-info p{
+  font-size: 4vw;
+  color: white;
+  grid-row: 10/14;
+  grid-column: 2/25;
+}
+
+div.attr-info2{
+  z-index: 30;
+  position: absolute;
+  display: grid;
+  grid-template-rows: repeat(60,2vw);
+  grid-template-columns: repeat(50,2vw);
+}
+
+div.attr-info2 p{
+  color: white;
+  font-size: 3vw;
+  grid-row: 3/31;
+  grid-column: 1/44;
+  text-align: left;
+  background-color: rgba(0,0,0,0.5);
+  display: table;
+}
+div.attr-info2 p:hover{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 3vw;
+  padding: 5%;
+  text-align: left;
+  transition: 0.3s;
+  background-color: rgba(0,0,0,0.5);
+}
+div.attr-info2 p:not(:hover){
+  color: white;
+  font-size: 3vw;
+  text-align: left;
+  transition: 0.3s;
 }
 
 div.attr-info2{
@@ -2785,8 +2876,8 @@ div.attr-info2 p:not(:hover){
 }
 /*End of Attraction 1 page >1200PX*/
 div.next-attr {
-  grid-row: 49/52;
-  grid-column: 25/35;
+  grid-row: 48/50;
+  grid-column: 30/35;
 }
 div.next-attr a:hover{
   font-size: 3vw;
@@ -2808,8 +2899,8 @@ div.next-attr a:not(:hover){
 }
 
 div.prev-attr {
-  grid-row: 49/52;
-  grid-column: 1/12;
+  grid-row: 48/50;
+  grid-column: 1/13;
 }
 div.prev-attr a:hover{
   font-size: 3vw;
@@ -2924,7 +3015,7 @@ div.ptr-info2{
 }
 div.ptr-info2 h1{
   color: black;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bolder;
   grid-row: 3/9;
   grid-column:3/42;
@@ -2940,7 +3031,7 @@ div.ptr-info2 h1:hover{
 
 div.ptr-info2 h1:not(:hover){
   color: black;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bolder;
   transition: 0.5s;
 }
