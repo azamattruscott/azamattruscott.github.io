@@ -2793,7 +2793,7 @@ div.attr-box1, .attr-box2, .attr-box3{
 }
 
 div.attr-box1-info, .attr-box2-info, .attr-box3-info{
-  background-color: rgba(211, 0, 0, 0.5);
+  background-color: rgba(110, 200, 185, 0.5);
   padding: 10px;
   display: grid;
   grid-template-rows: repeat(15, 3vw);
@@ -2805,15 +2805,20 @@ div.attr-box1-info h1, .attr-box2-info h1, .attr-box3-info h1{
   font-size: 4vw;
   font-weight: bold;
   color: white;
-  grid-row: 2/4;
-  grid-column: 2/10;
+  grid-row: 1/6;
+  grid-column: 2/20;
 }
 
 div.attr-box1-info p, .attr-box2-info p, .attr-box3-info p{
-  font-size: 4vw;
+  font-size: 2vw;
   color: white;
-  grid-row: 10/14;
-  grid-column: 2/25;
+  grid-row: 13/16;
+  grid-column: 2/27;
+}
+
+div.attr-box3-info iframe{
+  grid-row: 2/12;
+  grid-column: 4/25;
 }
 
 div.attr-info2{
