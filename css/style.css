@@ -888,7 +888,7 @@ div.ptsbranch-info2 p{
 
 div.ptsbranch-carousel{
   display: grid;
-  grid-template-rows: repeat(39, 3vw);
+  grid-template-rows: repeat(33, 3vw);
   grid-template-columns: repeat(30, 3vw);
   scroll-behavior: smooth;
   grid-row: 35/55;
@@ -897,7 +897,7 @@ div.ptsbranch-carousel{
 
 #PTScarouselExampleIndicators{
   width: 90vw;
-  height: 120vw;
+  height: 107vw;
 }
 div.carousel-inner{
   height: 100vw;
@@ -946,12 +946,21 @@ div.ptr-info2 iframe{
   grid-row: 23;
   grid-column: 2/45;
   width: 85vw;
-  height: 60vw;
+  height: 50vw;
+}
+
+a.carousel-control-prev{
+  top: 90vw;
+  height: 50px;
+}
+a.carousel-control-next{
+  top: 90vw;
+  height: 50px;
 }
 
 div.next-pts {
   grid-row: 58/61;
-  grid-column: 17/21;
+  grid-column: 15/21;
 }
 div.next-pts a:hover{
   font-size: 5vw;
@@ -974,7 +983,7 @@ div.next-pts a:not(:hover){
 
 div.prev-pts {
   grid-row: 58/61;
-  grid-column: 1/4;
+  grid-column: 2/9;
 }
 div.prev-pts a:hover{
   font-size: 5vw;
@@ -998,7 +1007,7 @@ div.prev-pts a:not(:hover){
 
 div.attr-area{
   display: grid;
-  grid-template-rows: repeat(65, 5vw);
+  grid-template-rows: repeat(60, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
 }
@@ -1037,7 +1046,7 @@ div.attr-header h2{
 }
 
 div.attr-info{
-  grid-row: 20/45;
+  grid-row: 21/46;
   grid-column: 8/21;
 }
 div.attr-info p{
@@ -1049,38 +1058,31 @@ div.attr-info p{
 }
 
 div.attr1-image{
-  grid-row: 24/37;
-  grid-column: 1/16;
+  grid-row: 24/60;
+  grid-column: 1/18;
   background: url('../img/Sweden/IMG_8678.JPG') no-repeat;
-  background-size: cover;
-  scroll-behavior: smooth;
+  background-size: contain;
 }
 div.attr2-image{
-  grid-row: 22/34;
+  grid-row: 27/40;
   grid-column: 2/20;
   background: url('../img/Sweden/IMG_8828.JPG') no-repeat;
-
   background-size: contain;
-  scroll-behavior: smooth;
 }
 div.attr3-image{
-  grid-row: 22/35;
-  grid-column: 2/15;
-  background: url('..img/Sweden/Attr3_IMG2.jpg') -4vw -21vw;
-
+  grid-row: 22/40;
+  grid-column: 2/18;
+ background: url('../img/Sweden/IMG_8620.JPG') no-repeat;
   background-size: contain;
-  scroll-behavior: smooth;
 }
 div.attr4-image{
-  grid-row: 22/34;
+  grid-row: 22/40;
   grid-column: 2/20;
   background: url('../img/Sweden/IMG_8647.JPG') no-repeat;
-
   background-size: contain;
-  scroll-behavior: smooth;
 }
 div.attr5-image{
-  grid-row: 22/34;
+  grid-row: 22/40;
   grid-column: 2/20;
   background: url('../img/Sweden/Attr5IMG.JPG') no-repeat;
   background-size: contain;
@@ -1112,7 +1114,7 @@ a.carousel-control-next{
 
 div.attr-boxes{
   background-color: rgba(0,0,0,0);
-  grid-row: 45/62;
+  grid-row: 45/58;
   grid-column: 1/21;
   overflow-x: scroll;
   display: -webkit-box;
@@ -1122,7 +1124,7 @@ div.attr-box1, .attr-box2, .attr-box3{
   background-color: rgba(211, 211, 211, 1);
   margin-left: 10px;
   margin: 10px;
-  height: 75vw;
+  height: 58vw;
   width: 95vw;
 }
 
@@ -1130,8 +1132,12 @@ div.attr-box1-info, .attr-box2-info, .attr-box3-info{
   background-color: rgba(0, 211, 211, 0.5);
   margin: 10px;
   display: grid;
-  grid-template-rows: repeat(23, 3vw);
+  grid-template-rows: repeat(17, 3vw);
   grid-template-columns: repeat(30, 3vw);
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
 
@@ -1139,14 +1145,14 @@ div.attr-box1-info h1, .attr-box2-info h1, .attr-box3-info h1{
   font-size: 4vw;
   font-weight: bold;
   color: white;
-  grid-row: 2/4;
-  grid-column: 2/10;
+  grid-row: 2/10;
+  grid-column: 2/15;
 }
 
 div.attr-box1-info p, .attr-box2-info p, .attr-box3-info p{
   font-size: 4vw;
   color: white;
-  grid-row: 14/19;
+  grid-row: 11/19;
   grid-column: 2/25;
 }
 
@@ -1183,14 +1189,19 @@ div.attr-info2 p:not(:hover){
   transition: 0.3s;
 }
 
-div.carousel-item{
-  height: 60vw;
+.attr-box3-info iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 div.next-attr {
-  grid-row: 62/64;
+  grid-row: 59/61;
   grid-column: 15/21;
 }
+
 div.next-attr a:hover{
   font-size: 8vw;
   color: white;
@@ -1211,7 +1222,7 @@ div.next-attr a:not(:hover) {
 }
 
 div.prev-attr {
-  grid-row: 62/64;
+  grid-row: 59/61;
   grid-column: 1/10;
 }
 div.prev-attr a:hover{
@@ -1234,7 +1245,7 @@ div.prev-attr a:not(:hover){
 
 div.ti-bus-part{
   display: grid;
-  grid-template-rows: repeat(100, 5vw);
+  grid-template-rows: repeat(85, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
   height: 100vh;
@@ -1247,7 +1258,7 @@ div.ti-bus-part .showcase-branch{
 
 div.ti-train-part{
   display: grid;
-  grid-template-rows: repeat(100, 5vw);
+  grid-template-rows: repeat(85, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
   height: 100vh;
@@ -1260,7 +1271,7 @@ div.ti-train-part .showcase-branch{
 
 div.ti-boat-part{
   display: grid;
-  grid-template-rows: repeat(100, 5vw);
+  grid-template-rows: repeat(85, 5vw);
   grid-template-columns: repeat(20, 5vw);
   background-color: white;
   height: 100vh;
@@ -1299,17 +1310,17 @@ div.infobox-branch h3{
 
 div.infobox2-branch{
   grid-row: 19/38;
-  grid-column: 2/10;
+  grid-column: 2/20;
 }
 div.infobox2-branch p{
-  font-size: 3vw;
+  font-size: 4vw;
   text-align: left;
 }
 
 div.bus-image{
   background: url('../img/Sweden/IMG_9015.JPG');
-  grid-row: 19/38;
-  grid-column: 11/20;
+  grid-row: 54/63;
+  grid-column: 2/20;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1318,8 +1329,8 @@ div.bus-image{
 
 div.train-image{
   background: url('../img/Sweden/IMG_8796.JPG') 6vw 0vw;
-  grid-row: 19/35;
-  grid-column: 11/20;
+  grid-row: 54/63;
+  grid-column: 2/20;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1327,8 +1338,8 @@ div.train-image{
 
 div.boat-image{
   background: url('../img/Sweden/IMG_8646.JPG');
-  grid-row: 19/35;
-  grid-column: 11/20;
+  grid-row: 54/63;
+  grid-column: 2/20;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1352,7 +1363,7 @@ div.infobox3-branch a{
 }
 
 div.next-ti{
-  grid-row: 56/58;
+  grid-row: 78/80;
   grid-column: 18/21;
 }
 div.next-ti a:hover{
@@ -1373,8 +1384,8 @@ div.next-ti a:not(:hover){
   transition: 0.5s;
 }
 div.prev-ti{
-  grid-row: 56/58;
-  grid-column: 1/4;
+  grid-row: 78/80;
+  grid-column: 1/5;
 }
 div.prev-ti a:hover{
   font-size: 5vw;
@@ -1395,32 +1406,29 @@ div.prev-ti a:not(:hover){
 }
 
 div.bus-map{
-  grid-row: 42/53;
-  grid-column: 11/20;
-  z-index: -1;
+  grid-row: 64/81;
+  grid-column: 2/20;
 }
 div.bus-map iframe{
-  width: 46vw;
+  width: 90vw;
   height: 65vw;
 }
 
 div.train-map{
-  grid-row: 42/53;
-  grid-column: 11/20;
-  z-index: -1;
+  grid-row: 64/81;
+  grid-column: 2/20;
 }
 div.train-map iframe{
-  width: 46vw;
+  width: 90vw;
   height: 65vw;
 }
 
 div.boat-map{
-  grid-row: 42/53;
-  grid-column: 11/20;
-  z-index: -1;
+  grid-row: 64/81;
+  grid-column: 2/20;
 }
 div.boat-map iframe{
-  width: 46vw;
+  width: 90vw;
   height: 65vw;
 }
 
@@ -2528,7 +2536,7 @@ div.infobox-branch h3{
 }
 
 div.infobox2-branch{
-  grid-row: 22/34;
+  grid-row: 21/34;
   grid-column: 3/16;
 }
 
